@@ -12,7 +12,7 @@ const organizingCommittee = [
     name: 'Harry Reyes Nieva, PhD, MAS',
     role: 'Founder & General Chair',
     affiliation: 'Columbia University',
-    title: 'Assistant Professor, Department of Biomedical Informatics',
+    title: 'Incoming Assistant Professor',
   },
   {
     name: 'Safura Abdool Karim, PhD, LLM',
@@ -24,7 +24,7 @@ const organizingCommittee = [
     name: 'Delivette Castor, PhD, MPH, MSc',
     role: 'Program Committee',
     affiliation: 'Columbia University',
-    title: 'Title TBD',
+    title: 'Assistant Professor of Medical Sciences (in Medicine and in Epidemiology)',
   },
   {
     name: 'Craig Heck, PhD, MPH',

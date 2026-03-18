@@ -194,7 +194,7 @@ const speakers2026: Speaker[] = [
   {
     id: 'speaker-4',
     name: 'Safura Abdool Karim, PhD, LLM',
-    affiliation: 'Columbia Mailman School of Public Health, Heilbrunn Department of Population and Family Health',
+    affiliation: 'Columbia Mailman SPH, Heilbrunn Department of Population and Family Health',
     title: 'Adjunct Assistant Professor',
     role: ['organizer', 'panelist'],
     bio: 'Dr. Abdool Karim is a public health lawyer whose research focuses on using the law to improve health outcomes. Safura is currently the Oxford-Hopkins GLIDE postdoctoral fellow at the Berman Institute, Johns Hopkins University and an Adjunct-Assistant Professor at the Mailman School of Public Health, Columbia University. Safura holds chambers at the Bridge Group of Advocates and is a member of the Johannesburg Society of Advocates and the Pan African Bar Association. Safura has been involved in researching and advocating on issues in COVID-19, including equitable vaccine access, human rights and criminalization of COVID-19. Safura has done extensive work on the legal issues on COVID-19 vaccines, serving on the DPME/NRF Expert Group developing the COVID-19 Country Report and the Africa CDC’s COVID-19 Vaccine Delivery Alliance and the Technology and Intellectual Property Workstream of the Partnerships for African Vaccine Manufacturing. Safura also worked with the Occupational Health and Safety Workstream of the NDOH Ministerial Advisory Committee on COVID-19 to provide advice on streamlining the pricing of COVID-19 testing. Safura has also provided technical support for key litigation and assisted in the development of workplace mandatory vaccination policies.',
