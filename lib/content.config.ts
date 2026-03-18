@@ -229,7 +229,6 @@ const speakers2026: Speaker[] = [
     role: 'panelist',
     bio: 'Dr. Ostropolets...',
     keywords: ['Real-World Evidence', 'Clinical Informatics', 'Knowledge Engineering', 'Medical Ontologies'],
-  },
   }
 ];
 
