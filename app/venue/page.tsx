@@ -20,14 +20,6 @@ export default function VenuePage() {
           <p className="text-lg text-muted-foreground">
             Everything you need to know about getting to {siteConfig.seriesAcronym} {currentEdition.year}.
           </p>
-
-          <div className="mt-6 overflow-hidden rounded-xl border h-48 md:h-56">
-            <img
-              src="/raiidius/vps-vec-exterior.jpg"
-              alt="Exterior view of the Vagelos Education Center"
-              className="h-auto w-full object-cover"
-            />
-          </div>
         </div>
 
         {/* Venue Details */}
@@ -39,6 +31,13 @@ export default function VenuePage() {
                 {currentEdition.venue}
               </CardTitle>
             </CardHeader>
+          <div className="mt-6 overflow-hidden rounded-xl border">
+            <img
+              src="/raiidius/vps-vec-exterior.jpg"
+              alt="Exterior view of the Vagelos Education Center"
+              className="h-auto w-full object-cover"
+            />
+          </div>
             <CardContent className="pt-6">
               <div className="grid gap-6 md:grid-cols-2">
                 <div>
