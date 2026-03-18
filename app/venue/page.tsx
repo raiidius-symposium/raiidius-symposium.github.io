@@ -31,13 +31,6 @@ export default function VenuePage() {
                 {currentEdition.venue}
               </CardTitle>
             </CardHeader>
-          <div className="mt-6 overflow-hidden rounded-xl border">
-            <img
-              src="/raiidius/vps-vec-exterior.jpg"
-              alt="Exterior view of the Vagelos Education Center"
-              className="h-auto w-full object-cover"
-            />
-          </div>
             <CardContent className="pt-6">
               <div className="grid gap-6 md:grid-cols-2">
                 <div>
