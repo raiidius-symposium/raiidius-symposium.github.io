@@ -12,7 +12,7 @@ const organizingCommittee = [
     name: 'Harry Reyes Nieva, PhD, MAS',
     role: 'Founder & Program Chair',
     affiliation: 'CUIMC Division of Infectious Diseases',
-    title: 'Incoming Assistant Professor',
+    title: 'Postdoctoral Research Scientist',
     headshot: '/raiidius/speakers/harry-reyes-nieva.jpg',
   },
   {
