@@ -10,49 +10,49 @@ import { siteConfig, anticipatedOutcomes } from '@/lib/content.config';
 const organizingCommittee = [
   {
     name: 'Harry Reyes Nieva, PhD, MAS',
-    role: 'Founder & General Chair',
+    role: 'Founder & Program Committee Chair',
     affiliation: 'CUIMC Division of Infectious Diseases',
     title: 'Incoming Assistant Professor',
     headshot: '/raiidius/speakers/harry-reyes-nieva.jpg',
   },
   {
     name: 'Safura Abdool Karim, PhD, LLM',
-    role: 'Program Committee',
+    role: 'Program Committee Member',
     affiliation: 'Columbia Mailman SPH, Heilbrunn Department of Population and Family Health',
     title: 'Adjunct Assistant Professor',
     headshot: '/raiidius/speakers/safura-abdool-karim.jpeg',
   },
   {
     name: 'Delivette Castor, PhD, MPH, MSc',
-    role: 'Program Committee',
+    role: 'Program Committee Member',
     affiliation: 'CUIMC Division of Infectious Diseases',
     title: 'Assistant Professor of Medical Sciences (in Medicine and in Epidemiology)',
     headshot: '/raiidius/speakers/delivette-castor.jpg',
   },
   {
     name: 'Craig Heck, PhD, MPH',
-    role: 'Program Committee',
+    role: 'Program Committee Member',
     affiliation: 'CUIMC Division of Infectious Diseases',
     title: 'Postdoctoral Research Scientist',
     headshot: '/raiidius/speakers/craig-heck.jpg',
   },
   {
     name: 'Preeti Pathela, DrPH, MPH',
-    role: 'Program Committee',
+    role: 'Program Committee Member',
     affiliation: 'NYC Department of Health and Mental Hygiene',
     title: 'Director of Research and Evaluation, Bureau of Sexually Transmitted Infections',
     headshot: '/raiidius/speakers/preeti-pathela.png',
   },
   {
     name: 'Magdalena E. Sobieszczyk, MD, MPH',
-    role: 'Program Committee',
+    role: 'Program Committee Member',
     affiliation: 'CUIMC Division of Infectious Diseases',
     title: 'Harold C. Neu Professor of Infectious Diseases and Chief of Infectious Diseases at CUIMC',
     headshot: '/raiidius/speakers/magdalena-sobieszczyk.jpg',
   },
   {
     name: 'Jason E. Zucker, MD, MS',
-    role: 'Program Committee',
+    role: 'Program Committee Member',
     affiliation: 'CUIMC Division of Infectious Diseases',
     title: 'Assistant Professor of Medicine at CUIMC',
     headshot: '/raiidius/speakers/jason-zucker.jpg',
@@ -191,7 +191,7 @@ export default function AboutPage() {
           <h2 className="mb-6 text-2xl font-bold">Organizing Committee</h2>
           <div className="grid gap-4 sm:grid-cols-2">
             {organizingCommittee.map((member, index) => (
-              <Card key={index}>
+              <Card key={member.name}>
                 <CardContent className="pt-6">
                   <div className="flex items-start gap-4">
                     <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-muted">
