@@ -209,7 +209,7 @@ const speakers2026: Speaker[] = [
     title: 'Adjunct Assistant Professor',
     role: ['panelist'],
     bio: 'Dr. Abdool Karim is a public health lawyer whose research focuses on using the law to improve health outcomes. Safura is currently the Oxford-Hopkins GLIDE postdoctoral fellow at the Berman Institute, Johns Hopkins University and an Adjunct-Assistant Professor at the Mailman School of Public Health, Columbia University. Safura holds chambers at the Bridge Group of Advocates and is a member of the Johannesburg Society of Advocates and the Pan African Bar Association. Safura has been involved in researching and advocating on issues in COVID-19, including equitable vaccine access, human rights and criminalization of COVID-19. Safura has done extensive work on the legal issues on COVID-19 vaccines, serving on the DPME/NRF Expert Group developing the COVID-19 Country Report and the Africa CDC’s COVID-19 Vaccine Delivery Alliance and the Technology and Intellectual Property Workstream of the Partnerships for African Vaccine Manufacturing. Safura also worked with the Occupational Health and Safety Workstream of the NDOH Ministerial Advisory Committee on COVID-19 to provide advice on streamlining the pricing of COVID-19 testing. Safura has also provided technical support for key litigation and assisted in the development of workplace mandatory vaccination policies.',
-    keywords: ['Public Health', 'Implementation', 'Digital Health', 'Urban Health'],
+    keywords: ['Public Health', 'Bioethics', 'Human Rights', 'Vaccines'],
     headshot: '/raiidius/speakers/safura-abdool-karim.jpeg',
  },
   {
@@ -219,7 +219,7 @@ const speakers2026: Speaker[] = [
    title: 'Director of Research and Evaluation, Bureau of Sexually Transmitted Infections',
     role: ['panelist'],
     bio: 'Dr. Pathela is the Executive Director of the STI Program in the Bureau of Hepatitis, HIV, and STI at the New York City Department of Health and Mental Hygiene. She has overall responsibility for directing, evaluating, and coordinating the activities of the Program, which consists of roughly 90 staff who conduct work in STI program implementation, surveillance and field operations, and epidemiology, research and evaluation. She serves on the American STD Association’s Board of Directors and as an Associate Editor of the journal Sexually Transmitted Diseases.',
-    keywords: ['Health Equity', 'Ethics', 'Bias in AI', 'Community Health'],
+    keywords: ['HIV', 'STIs', 'Public Health','Program Implementation'],
     headshot: '/raiidius/speakers/preeti-pathela.png',
   },
   {
@@ -239,7 +239,7 @@ const speakers2026: Speaker[] = [
    title: 'Vivian Beaumont Allen Professor',
     role: 'presenter',
     bio: 'Dr. Hripcsak is Vivian Beaumont Allen Professor in the Department of Biomedical Informatics at Columbia University. He is a board-certified internist with degrees in chemistry, medicine, and biostatistics. Dr. Hripcsak’s current research focus is on the clinical information stored in electronic health records and on the development of next-generation health record systems. Using nonlinear time series analysis, machine learning, knowledge engineering, and natural language processing, he is developing the methods necessary to support clinical research and patient safety initiatives. For his work in precision medicine, he serves as a PI on Columbia’s eMERGE grant, as a PI on Columbia’s regional recruitment center for the All of Us precision medicine program, and as site PI for Columbia’s role on the All of Us Data and Research Center. He co-chaired the Meaningful Use Workgroup of U.S. Department of Health and Human Services’s Office of the National Coordinator of Health Information Technology; it defines the criteria by which health care providers collect incentives for using electronic health records. He led the effort to create the Arden Syntax, a language for representing health knowledge that has become a national standard. Dr. Hripcsak is a fellow of the National Academy of Medicine, the American College of Medical Informatics, and the New York Academy of Medicine, and he chaired the U.S. National Library of Medicine’s Biomedical Library and Informatics Review Committee. He has published over 350 papers.',
-    keywords: ['Electronic Health Records', 'Causal Inference', 'Decision Support', 'Observational Research'],
+    keywords: ['Observational Research', 'Electronic Health Records', 'Causal Inference', 'Decision Support'],
     headshot: '/raiidius/speakers/george-hripcsak.jpg',
   },
   {
@@ -249,7 +249,7 @@ const speakers2026: Speaker[] = [
     title: 'Adjunct Assistant Professor of Biomedical Informatics',
     role: 'presenter',
     bio: 'Dr. Ostropolets is an Associate Director at Janssen Research and Development, a Johnson & Johnson Company where she works on methods to advance observational research for medical products safety. More broadly, as Adjunct Assistant Professor of Biomedical Informatics at Columbia University and a long-standing OHDSI collaborator, she designs, builds and disseminates frameworks, approaches and tools for minimizing bias in observational research with a specific focus on patient phenotyping. Since 2022, she has led the OHDSI Vocabulary improvement initiative focused on improving the quality, fit-for-use, and transparency of the OHDSI Standardized Vocabularies. Dr. Ostropolets received her medical degree and completed her residency at Kharkiv National Medical University. Before joining Janssen, she was Director, Head of Innovation Lab for Odysseus Data Services coordinating business intelligence initiative for harmonization and visualization of real-world data.',
-    keywords: ['Real-World Evidence', 'Clinical Informatics', 'Knowledge Engineering', 'Medical Ontologies'],
+    keywords: ['Real-World Evidence', 'Clinical Phenotyping', 'Knowledge Engineering', 'Medical Ontologies'],
     headshot: '/raiidius/speakers/anna-ostropolets.jpg',
   }
 ];
