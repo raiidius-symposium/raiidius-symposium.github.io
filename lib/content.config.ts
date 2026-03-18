@@ -246,6 +246,16 @@ const speakers2026: Speaker[] = [
     bio: 'Dr. Ostropolets is an Associate Director at Janssen Research and Development, a Johnson & Johnson Company where she works on methods to advance observational research for medical products safety. More broadly, as Adjunct Assistant Professor of Biomedical Informatics at Columbia University and a long-standing OHDSI collaborator she designs, builds and disseminates frameworks, approaches and tools for minimizing bias in observational research with a specific focus patient phenotyping. Since 2022 she is leading OHDSI Vocabulary improvement initiative focused on improving quality, fit-for-use and transparency of the OHDSI Standardized Vocabularies. Dr. Ostropolets received her medical degree and completed her residency at Kharkiv National Medical University. Before joining Janssen, she was Director, Head of Innovation Lab for Odysseus Data Services coordinating business intelligence initiative for harmonization and visualization of real-world data.',
     keywords: ['Real-World Evidence', 'Clinical Informatics', 'Knowledge Engineering', 'Medical Ontologies'],
     headshot: '/raiidius/speakers/anna-ostropolets.jpg',
+  },
+  {
+    id: 'speaker-8',
+    name: 'Craig Heck, PhD, MPH',
+    affiliation: 'CUIMC Division of Infectious Diseases',
+    title: 'Postdoctoral Research Scientist',
+    role: 'presenter',
+    bio: 'Dr. Heck is a postdoctoral research scientist in Columbia University’s Division of Infectious Diseases. He is an epidemiologist with a decade of experience researching HIV prevention strategies for key and vulnerable populations in eastern and southern Africa. His research primarily seeks to improve the availability, access, use, and continuation of HIV prevention services, methods, and interventions using social, behavioral, and implementation science approaches. Recently, he has been examining the dynamics of risk perception and its influence on risk-reduction behaviors. Dr. Heck is also interested in identifying and addressing social, structural, and systemic drivers of health disparities. Dr. Heck holds a PhD in epidemiology and an MPH in population and family health, both from Columbia University's Mailman School of Public Health.',
+    keywords: ['Epidemiolgoy','HIV Prevention','Risk Perception','Risk-Reduction Behaviors'],
+    headshot: '/raiidius/speakers/craig-heck.jpg',
   }
 ];
 
