@@ -251,7 +251,17 @@ const speakers2026: Speaker[] = [
     bio: 'Dr. Ostropolets is an Associate Director at Janssen Research and Development, a Johnson & Johnson Company where she works on methods to advance observational research for medical products safety. More broadly, as Adjunct Assistant Professor of Biomedical Informatics at Columbia University and a long-standing OHDSI collaborator, she designs, builds and disseminates frameworks, approaches and tools for minimizing bias in observational research with a specific focus on patient phenotyping. Since 2022, she has led the OHDSI Vocabulary improvement initiative focused on improving the quality, fit-for-use, and transparency of the OHDSI Standardized Vocabularies. Dr. Ostropolets received her medical degree and completed her residency at Kharkiv National Medical University. Before joining Janssen, she was Director, Head of Innovation Lab for Odysseus Data Services coordinating business intelligence initiative for harmonization and visualization of real-world data.',
     keywords: ['Real-World Evidence', 'Clinical Phenotyping', 'Knowledge Engineering', 'Medical Ontologies'],
     headshot: '/raiidius/speakers/anna-ostropolets.jpg',
-  }
+  },
+  {
+    id: 'speaker-10',
+    name: 'Michael T. Yin, MD, MS',
+    affiliation: 'CUIMC Department of Biomedical Informatics',
+    title: 'Professor of Medicine',
+    role: 'organizer',
+    bio: 'Dr. Michael Yin is an infectious disease specialist who has dedicated his career towards optimizing HIV treatment and prevention. His research focuses upon non-infectious complications of HIV which is growing in significance as people with HIV live longer with effective antiretrovirals therapy (ART) and experience accentuated aging-related complications. He has evaluated the epidemiology and pathogenic mechanisms of HIV associated bone loss in postmenopausal women, adolescents, and children with perinatal infection. Using novel imaging techniques and translational bone cell assays, he has made important discoveries about the dysregulation of bone metabolism associated with HIV infection and ART and investigated therapeutic strategies to mitigate bone loss and fracture. In addition to skeletal complications, Dr. Yin has also studied the impact of HIV and ART on cardiovascular disease, metabolic syndrome, obesity, frailty and falls. Recent work has extended to evaluation of epigenetic aging in children, adolescents and adults living with HIV.',
+    keywords: ['Clinical Informatics', 'HIV', 'Aging', 'Epigenetics'],
+    headshot: '/raiidius/speakers/michael-yin.jpg',
+  },
 ];
 
 

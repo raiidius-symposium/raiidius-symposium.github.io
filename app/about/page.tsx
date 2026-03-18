@@ -54,7 +54,7 @@ const organizingCommittee = [
     name: 'Michael T. Yin, MD, MPH',
     role: 'Committee Member',
     affiliation: 'CUIMC Division of Infectious Diseases',
-    title: 'Professor of Infectious Diseases',
+    title: 'Professor of Medicine',
     headshot: '/speakers/michael-yin.jpg',
   },
   {
