@@ -141,13 +141,13 @@ const partners2026: Partner[] = [
     description: 'The Division of Infectious Diseases at Columbia University Irving Medical Center (CUIMC) is devoted to excellence in patient care, research, and teaching, and to developing the next generation of leaders in academic medicine and public health.',
     url: 'https://www.infectiousdiseases.cuimc.columbia.edu/',
   },
-  {
-    id: 'dbmi',
-    name: 'CUIMC Department of Biomedical Informatics',
-    shortName: 'CUIMC DBMI',
-    description: 'The Department of Biomedical Informatics at Columbia University Irving Medical Center (CUIMC) pursues theoretical and practical advances in AI, data science, and human-computer interaction, which will lead to better health and new biomedical knowledge.',
-    url: 'https://www.dbmi.columbia.edu/',
-  },
+//  {
+//    id: 'dbmi',
+//    name: 'CUIMC Department of Biomedical Informatics',
+//    shortName: 'CUIMC DBMI',
+//    description: 'The Department of Biomedical Informatics at Columbia University Irving Medical Center (CUIMC) pursues theoretical and practical advances in AI, data science, and human-computer interaction, which will lead to better health and new biomedical knowledge.',
+//    url: 'https://www.dbmi.columbia.edu/',
+//  },
   {
     id: 'ai-vps',
     name: 'AI@VP&S Initiative',
