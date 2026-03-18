@@ -239,7 +239,7 @@ const speakers2026: Speaker[] = [
     role: 'panelist',
     bio: 'Dr. Pathela is the Executive Director of the STI Program in the Bureau of Hepatitis, HIV, and STI at the New York City Department of Health and Mental Hygiene. She has overall responsibility for directing, evaluating, and coordinating the activities of the Program, which consists of roughly 90 staff who conduct work in STI program implementation, surveillance and field operations, and epidemiology, research and evaluation. She serves on the American STD Association’s Board of Directors and as an Associate Editor of the journal Sexually Transmitted Diseases.',
     keywords: ['Health Equity', 'Ethics', 'Bias in AI', 'Community Health'],
-    headshot: '/raiidius/speakers/preeti-pathela.jpg',
+    headshot: '/raiidius/speakers/preeti-pathela.png',
   },
   {
     id: 'speaker-9',
