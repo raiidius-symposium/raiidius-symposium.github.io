@@ -197,13 +197,23 @@ export default function AboutPage() {
         <section className="mb-12">
           <h2 className="mb-6 text-2xl font-bold">Organizing Committee</h2>
           <div className="grid gap-4 sm:grid-cols-2">
-            {organizingCommittee.map((member, index) => (
+            {organizingCommittee.map((member) => (
               <Card key={member.name}>
                 <CardContent className="pt-6">
                   <div className="flex items-start gap-4">
-                    <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-muted">
-                      <User className="h-6 w-6 text-muted-foreground" />
-                    </div>
+                    <div className="h-12 w-12 shrink-0 overflow-hidden rounded-full bg-muted">
+  {member.headshot ? (
+    <img
+      src={member.headshot}
+      alt={member.name}
+      className="h-full w-full object-cover"
+    />
+  ) : (
+    <div className="flex h-full w-full items-center justify-center">
+      <User className="h-6 w-6 text-muted-foreground" />
+    </div>
+  )}
+</div>
                     <div>
                       <div className="flex items-center gap-2 mb-1">
                         <h3 className="font-semibold">{member.name}</h3>
