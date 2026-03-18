@@ -228,7 +228,7 @@ export default function AboutPage() {
             <CardContent className="pt-6">
               <p className="text-muted-foreground leading-relaxed">
                 {siteConfig.seriesAcronym} {currentEdition.year} is hosted by the{' '}
-                <strong className="text-foreground">Division of Infectious Diseases at Columbia University Irving Medical Center (CUIMC)</strong>.
+                <strong className="text-foreground">Division of Infectious Diseases at Columbia University Irving Medical Center</strong>.
               </p>
             </CardContent>
           </Card>
