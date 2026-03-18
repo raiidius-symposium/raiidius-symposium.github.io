@@ -31,9 +31,11 @@ export function HeroSection() {
           </h1>
           
           {/* Tagline */}
-          <p className="mb-8 text-lg text-muted-foreground md:text-xl leading-relaxed max-w-2xl mx-auto">
-            {siteConfig.seriesTagline}
-          </p>
+          <p className="mb-8 text-lg text-muted-foreground md:text-xl leading-relaxed max-w-3xl mx-auto">
+  <span>Responsible AI for Infectious Disease</span>
+  <br />
+  <span>Intervention, Understanding, &amp; Surveillance</span>
+</p>
 
           {/* Edition Badge */}
           <div className="mb-8 flex justify-center">
