@@ -10,7 +10,7 @@ import { siteConfig, anticipatedOutcomes } from '@/lib/content.config';
 const organizingCommittee = [
   {
     name: 'Harry Reyes Nieva, PhD, MAS',
-    role: 'Founder & Program Committee Chair',
+    role: 'Founder & Program Chair',
     affiliation: 'CUIMC Division of Infectious Diseases',
     title: 'Incoming Assistant Professor',
     headshot: '/raiidius/speakers/harry-reyes-nieva.jpg',
