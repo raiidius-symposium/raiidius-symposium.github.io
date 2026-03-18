@@ -155,6 +155,13 @@ const partners2026: Partner[] = [
     description: 'The AI@VP&S Initiative at Columbia Vagelos College of Physicians and Surgeons (VP&S) spearheads innovative, safe, and equitable AI through collaborative research, transformative education, bi-directional community engagement, and patient-centered and clinician-supportive approaches.',
     url: 'https://www.vagelos.columbia.edu/',
   },
+  {
+    id: 'astda',
+    name: 'American Sexually Transmitted Diseases Association',
+    shortName: 'ASTDA',
+    description: 'The American Sexually Transmitted Diseases Association (ASTDA) aims to foster scientific knowledge, develop leadership, and champion practice in the field of sexually transmitted infections.',
+    url: 'https://www.astda.org/',
+  },
 ];
 
 // -----------------------------------------------------------------------------
