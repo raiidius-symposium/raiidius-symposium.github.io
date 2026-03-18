@@ -18,12 +18,21 @@ export interface Partner {
   url?: string;
 }
 
+
+type SpeakerRole =
+  | 'keynote'
+  | 'panelist'
+  | 'breakout-lead'
+  | 'presenter'
+  | 'organizer'
+  | 'moderator';
+
 export interface Speaker {
   id: string;
   name: string;
   affiliation: string;
   title?: string;
-  role: 'keynote' | 'panelist' | 'breakout-lead' | 'presenter' | 'organizer' | 'moderator';
+  role: SpeakerRole | SpeakerRole[];
   bio: string;
   keywords: string[];
   headshot?: string;

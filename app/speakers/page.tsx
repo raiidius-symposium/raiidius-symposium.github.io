@@ -25,6 +25,19 @@ const roleLabels: Record<string, string> = {
 
 const roleOrder = ['keynote', 'panelist', 'breakout-lead', 'presenter', 'moderator', 'organizer'];
 
+const getSpeakerRoles = (speaker: Speaker): string[] =>
+  Array.isArray(speaker.role) ? speaker.role : [speaker.role];
+
+const getRoleLabel = (role: string): string => roleLabels[role] || role;
+
+const getSpeakerRoleLabel = (speaker: Speaker): string =>
+  getSpeakerRoles(speaker).map(getRoleLabel).join(' • ');
+
+const getPrimaryRole = (speaker: Speaker): string =>
+  getSpeakerRoles(speaker).sort(
+    (a, b) => roleOrder.indexOf(a) - roleOrder.indexOf(b)
+  )[0];
+
 function SpeakerCard({ speaker, onClick }: { speaker: Speaker; onClick: () => void }) {
   return (
     <button
@@ -44,7 +57,7 @@ function SpeakerCard({ speaker, onClick }: { speaker: Speaker; onClick: () => vo
           )}
         </div>
         <Badge variant="secondary" className="text-xs capitalize">
-          {roleLabels[speaker.role] || speaker.role}
+          {getSpeakerRoleLabel(speaker)}
         </Badge>
       </div>
       <h3 className="mb-1 text-lg font-semibold group-hover:text-primary transition-colors">
@@ -122,9 +135,11 @@ export default function SpeakersPage() {
   const [selectedSpeaker, setSelectedSpeaker] = useState<Speaker | null>(null);
 
   const availableRoles = useMemo(() => {
-    const roles = new Set(currentEdition.speakers.map((s) => s.role));
-    return roleOrder.filter((r) => roles.has(r));
-  }, [currentEdition.speakers]);
+  const roles = new Set(
+    currentEdition.speakers.flatMap((s) => getSpeakerRoles(s))
+  );
+  return roleOrder.filter((r) => roles.has(r));
+}, [currentEdition.speakers]);
 
   const filteredSpeakers = useMemo(() => {
     return currentEdition.speakers
@@ -134,10 +149,14 @@ export default function SpeakersPage() {
           speaker.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
           speaker.affiliation.toLowerCase().includes(searchQuery.toLowerCase()) ||
           speaker.keywords.some((k) => k.toLowerCase().includes(searchQuery.toLowerCase()));
-        const matchesRole = !roleFilter || speaker.role === roleFilter;
+        const matchesRole =
+  !roleFilter || getSpeakerRoles(speaker).includes(roleFilter);
         return matchesSearch && matchesRole;
       })
-      .sort((a, b) => roleOrder.indexOf(a.role) - roleOrder.indexOf(b.role));
+      .sort(
+  (a, b) =>
+    roleOrder.indexOf(getPrimaryRole(a)) - roleOrder.indexOf(getPrimaryRole(b))
+);
   }, [currentEdition.speakers, searchQuery, roleFilter]);
 
   if (!currentEdition.speakers.length) {

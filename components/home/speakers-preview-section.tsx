@@ -15,16 +15,28 @@ const roleLabels: Record<string, string> = {
   moderator: 'Moderator',
 };
 
+const roleOrder = ['keynote', 'panelist', 'breakout-lead', 'presenter', 'moderator', 'organizer'];
+
+const getSpeakerRoles = (speaker: { role: string | string[] }): string[] =>
+  Array.isArray(speaker.role) ? speaker.role : [speaker.role];
+
+const getPrimaryRole = (speaker: { role: string | string[] }): string =>
+  getSpeakerRoles(speaker).sort(
+    (a, b) => roleOrder.indexOf(a) - roleOrder.indexOf(b)
+  )[0];
+
+const getSpeakerRoleLabel = (speaker: { role: string | string[] }): string =>
+  getSpeakerRoles(speaker)
+    .map((role) => roleLabels[role] || role)
+    .join(' • ');
+
 export function SpeakersPreviewSection() {
   const { currentEdition } = useEdition();
 
   // Show up to 6 speakers, prioritizing keynotes and panelists
   const featuredSpeakers = [...currentEdition.speakers]
-    .sort((a, b) => {
-      const order = ['keynote', 'panelist', 'breakout-lead', 'presenter'];
-      return order.indexOf(a.role) - order.indexOf(b.role);
-    })
-    .slice(0, 6);
+  .sort((a, b) => roleOrder.indexOf(getPrimaryRole(a)) - roleOrder.indexOf(getPrimaryRole(b)))
+  .slice(0, 6);
 
   if (!featuredSpeakers.length) return null;
 
@@ -68,7 +80,7 @@ export function SpeakersPreviewSection() {
                     )}
                   </div>
                   <Badge variant="secondary" className="text-xs capitalize">
-                    {roleLabels[speaker.role] || speaker.role}
+                    {getSpeakerRoleLabel(speaker)}
                   </Badge>
                 </div>
                 <h3 className="mb-1 font-semibold">{speaker.name}</h3>
