@@ -114,7 +114,7 @@ function SpeakerModal({ speaker, open, onClose }: { speaker: Speaker | null; ope
           </div>
           <div className="flex-1">
             <Badge variant="secondary" className="mb-2 text-xs capitalize">
-              {roleLabels[speaker.role] || speaker.role}
+              {getSpeakerRoleLabel(speaker)}
             </Badge>
             <h2 className="text-xl font-bold">{speaker.name}</h2>
             {speaker.title && (

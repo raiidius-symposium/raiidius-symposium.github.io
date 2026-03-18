@@ -56,7 +56,7 @@ export default function VenuePage() {
                 <div>
                   <h3 className="font-semibold mb-2">About the Venue</h3>
                   <p className="text-sm text-muted-foreground leading-relaxed">
-                    The Vagelos Education Center is a state-of-the-art medical education facility 
+                    The Roy and Diana Vagelos Education Center is a state-of-the-art medical education facility 
                     at Columbia University Irving Medical Center. The building features modern 
                     lecture halls, collaboration spaces, and full accessibility accommodations.
                   </p>
@@ -156,7 +156,7 @@ export default function VenuePage() {
             <CardContent className="pt-6">
               <h3 className="font-semibold mb-3">Campus Navigation</h3>
               <p className="text-sm text-muted-foreground leading-relaxed">
-                The Vagelos Education Center is located on Haven Avenue, between 169th and 170th Streets. 
+                The Vagelos Education Center is located on Haven Avenue, between 171st and 172nd Streets. 
                 Enter through the main entrance on Haven Ave. Room VEC 401 is on the 4th floor; 
                 elevators and stairs are available in the main lobby. Signs will direct you to 
                 the {siteConfig.seriesAcronym} registration desk on the day of the event.
@@ -235,7 +235,7 @@ export default function VenuePage() {
                   have numerous restaurants within walking distance.
                 </p>
                 <p>
-                  <strong>Note:</strong> Breakfast and lunch will be provided at the symposium. 
+                  <strong>Note:</strong> Lunch will be provided at the symposium. 
                   The evening reception will include light refreshments.
                 </p>
               </CardContent>
