@@ -1,13 +1,13 @@
 'use client';
 
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
 import { Clock, MapPin, Users, Printer } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+import { Tabs, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { useEdition } from '@/lib/edition-context';
-import { siteConfig, getSessionSpeakers, type Session } from '@/lib/content.config';
+import { getSessionSpeakers, siteConfig, type Session } from '@/lib/content.config';
 
 const formatLabels: Record<string, string> = {
   registration: 'Registration',
@@ -42,31 +42,29 @@ function SessionCard({ session }: { session: Session }) {
   const speakers = getSessionSpeakers(currentEdition, session);
 
   return (
-    <div className="relative border-l-4 border-primary/20 pl-4 py-4 hover:border-primary/50 transition-colors">
-      <div className="flex flex-wrap items-start gap-2 mb-2">
+    <div className="relative border-l-4 border-primary/20 py-4 pl-4 transition-colors hover:border-primary/50">
+      <div className="mb-2 flex flex-wrap items-start gap-2">
         <Badge className={formatColors[session.format] || 'bg-muted'}>
           {formatLabels[session.format] || session.format}
         </Badge>
-        <span className="text-sm text-muted-foreground flex items-center gap-1">
+        <span className="flex items-center gap-1 text-sm text-muted-foreground">
           <Clock className="h-3 w-3" />
           {session.startTime} - {session.endTime}
         </span>
         {session.location && (
-          <span className="text-sm text-muted-foreground flex items-center gap-1">
+          <span className="flex items-center gap-1 text-sm text-muted-foreground">
             <MapPin className="h-3 w-3" />
             {session.location}
           </span>
         )}
       </div>
-      <h3 className="font-semibold text-lg mb-1">{session.title}</h3>
-      <p className="text-sm text-muted-foreground leading-relaxed mb-2">
-        {session.description}
-      </p>
+      <h3 className="mb-1 text-lg font-semibold">{session.title}</h3>
+      <p className="mb-2 text-sm leading-relaxed text-muted-foreground">{session.description}</p>
       {speakers.length > 0 && (
-        <div className="flex flex-wrap gap-2 mt-2">
+        <div className="mt-2 flex flex-wrap gap-2">
           {speakers.map((speaker) => (
             <Badge key={speaker.id} variant="outline" className="text-xs">
-              <Users className="h-3 w-3 mr-1" />
+              <Users className="mr-1 h-3 w-3" />
               {speaker.name}
             </Badge>
           ))}
@@ -89,11 +87,11 @@ function BreakoutTracksCard() {
       <CardContent className="space-y-4">
         {currentEdition.breakoutTracks.map((track) => (
           <div key={track.id} className="border-l-2 border-accent pl-3">
-            <div className="flex items-center gap-2 mb-1">
+            <div className="mb-1 flex items-center gap-2">
               <Badge variant="outline" className="text-xs font-mono">
                 Track {track.label}
               </Badge>
-              <span className="font-medium text-sm">{track.title}</span>
+              <span className="text-sm font-medium">{track.title}</span>
             </div>
             <p className="text-xs text-muted-foreground">{track.description}</p>
           </div>
@@ -107,11 +105,17 @@ export default function ProgramPage() {
   const { currentEdition } = useEdition();
   const [activeFilter, setActiveFilter] = useState('all');
 
-  const formats = ['all', 'keynote', 'breakout', 'panel', 'poster', 'session', 'roundtable', 'reception'];
-  
-  const filteredSessions = activeFilter === 'all' 
-    ? currentEdition.agenda 
-    : currentEdition.agenda.filter((s) => s.format === activeFilter);
+  const availableFormats = useMemo(() => {
+    const base = ['all'];
+    const seen = new Set(currentEdition.agenda.map((session) => session.format));
+    const ordered = ['keynote', 'breakout', 'panel', 'poster', 'session', 'roundtable', 'reception', 'remarks', 'lunch', 'break', 'registration'];
+    return [...base, ...ordered.filter((format) => seen.has(format))];
+  }, [currentEdition.agenda]);
+
+  const filteredSessions =
+    activeFilter === 'all'
+      ? currentEdition.agenda
+      : currentEdition.agenda.filter((session) => session.format === activeFilter);
 
   const handlePrint = () => {
     window.print();
@@ -133,12 +137,11 @@ export default function ProgramPage() {
   return (
     <div className="container mx-auto px-4 py-12">
       <div className="mx-auto max-w-4xl">
-        {/* Header */}
         <div className="mb-8">
           <h1 className="mb-2 text-3xl font-bold md:text-4xl">
             {siteConfig.seriesAcronym} {currentEdition.year} Program
           </h1>
-          <p className="text-lg text-muted-foreground mb-4">
+          <p className="mb-4 text-lg text-muted-foreground">
             {currentEdition.dateFormatted} &middot; {currentEdition.timezone}
           </p>
           <div className="flex items-center gap-2 text-sm text-muted-foreground">
@@ -149,40 +152,37 @@ export default function ProgramPage() {
           </div>
         </div>
 
-        {/* Actions */}
-        <div className="mb-8 flex items-center justify-between">
+        <div className="mb-8 flex items-center justify-between gap-4">
           <Tabs value={activeFilter} onValueChange={setActiveFilter}>
-            <TabsList className="flex-wrap h-auto gap-1">
-              {formats.map((format) => (
+            <TabsList className="h-auto flex-wrap gap-1">
+              {availableFormats.map((format) => (
                 <TabsTrigger key={format} value={format} className="text-xs capitalize">
                   {format === 'all' ? 'All' : formatLabels[format] || format}
                 </TabsTrigger>
               ))}
             </TabsList>
           </Tabs>
-          <Button variant="outline" size="sm" onClick={handlePrint} className="hidden md:flex gap-2 print:hidden">
+          <Button variant="outline" size="sm" onClick={handlePrint} className="hidden gap-2 print:hidden md:flex">
             <Printer className="h-4 w-4" />
             Print
           </Button>
         </div>
 
-        {/* Agenda */}
         <div className="space-y-2">
           {filteredSessions.map((session) => (
             <SessionCard key={session.id} session={session} />
           ))}
         </div>
 
-        {/* Breakout tracks detail (show when filtering breakouts or all) */}
         {(activeFilter === 'all' || activeFilter === 'breakout') && <BreakoutTracksCard />}
 
-        {/* Print styles */}
         <style jsx global>{`
           @media print {
             body * {
               visibility: hidden;
             }
-            .container, .container * {
+            .container,
+            .container * {
               visibility: visible;
             }
             .container {
@@ -191,7 +191,7 @@ export default function ProgramPage() {
               top: 0;
               width: 100%;
             }
-            .print\\:hidden {
+            .print\:hidden {
               display: none !important;
             }
           }

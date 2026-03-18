@@ -4,7 +4,6 @@ import Link from 'next/link';
 import { ArrowRight, Clock } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Badge } from '@/components/ui/badge';
 import { useEdition } from '@/lib/edition-context';
 
 const programBlocks = [
@@ -21,7 +20,7 @@ const programBlocks = [
     time: '10:30 AM - 12:45 PM',
     title: 'Midday Sessions',
     items: [
-      'Concurrent Breakout Sessions',
+      'OHDSI Workshop Tutorial',
       'Panel Discussion & Q&A',
     ],
   },
@@ -56,9 +55,7 @@ export function ProgramPreviewSection() {
         <div className="mx-auto max-w-6xl">
           <div className="mb-12 flex flex-col items-center justify-between gap-4 text-center md:flex-row md:text-left">
             <div>
-              <h2 className="mb-2 text-2xl font-bold tracking-tight md:text-3xl">
-                Program at a Glance
-              </h2>
+              <h2 className="mb-2 text-2xl font-bold tracking-tight md:text-3xl">Program at a Glance</h2>
               <p className="text-muted-foreground">
                 A full day of learning, discussion, and collaboration.
               </p>
@@ -95,7 +92,6 @@ export function ProgramPreviewSection() {
             ))}
           </div>
 
-          {/* Venue info */}
           <div className="mt-8 rounded-lg border bg-muted/30 p-4 text-center">
             <p className="text-sm text-muted-foreground">
               <strong className="text-foreground">{currentEdition.venue}</strong>
