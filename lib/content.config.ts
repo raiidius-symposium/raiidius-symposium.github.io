@@ -158,6 +158,7 @@ const speakers2026: Speaker[] = [
     role: 'keynote',
     bio: 'Dr. Reyes Nieva...',
     keywords: ['Human-Centered AI', 'Precision Health', 'Learning Health Systems', 'Clinical and Public Health Informatics'],
+    headshot: '/speakers/harry-reyes-nieva.jpg',
   },
   {
     id: 'speaker-2',
@@ -167,6 +168,7 @@ const speakers2026: Speaker[] = [
     role: 'keynote',
     bio: 'Dr. Castor...',
     keywords: ['Epidemiology', 'Implementation Science', 'Surveillance', 'Public Health'],
+    headshot: '/speakers/delivette-castor.jpg',
   },
   {
     id: 'speaker-2',
@@ -176,6 +178,7 @@ const speakers2026: Speaker[] = [
     role: 'keynote',
     bio: 'Dr. Zucker is an expert clinician-technologist...',
     keywords: ['Infectious Diseases', 'Sexual Health Care', 'Health Information Exchange', 'Electronic Health Records'],
+    headshot: '/speakers/jason-zucker.jpg',
   },
 //  {
 //    id: 'speaker-3',
@@ -211,6 +214,7 @@ const speakers2026: Speaker[] = [
     role: 'panelist',
     bio: 'Dr. Sobieszczyk is the Chief of Infectious Diseases at CUIMC and a clinical virologist advancing the science of HIV and emerging infections like SARS-CoV-2.',
     keywords: ['Clinical Virology', 'HIV Clinical Trials', 'HIV Vaccines', 'HIV Care'],
+    headshot: '/speakers/magdalena-sobieszczyk.jpg',
   },
   {
     id: 'speaker-4',
@@ -220,6 +224,7 @@ const speakers2026: Speaker[] = [
     role: 'panelist',
     bio: 'Dr. Hripcsak...',
     keywords: ['Electronic Health Records', 'Causal Inference', 'Decision Support', 'Observational Research'],
+    headshot: '/speakers/George-hripcsak.jpg',
   },
   {
     id: 'speaker-5',
@@ -229,6 +234,7 @@ const speakers2026: Speaker[] = [
     role: 'panelist',
     bio: 'Dr. Ostropolets...',
     keywords: ['Real-World Evidence', 'Clinical Informatics', 'Knowledge Engineering', 'Medical Ontologies'],
+    headshot: '/speakers/anna-ostropolets.jpg',
   }
 ];
 
