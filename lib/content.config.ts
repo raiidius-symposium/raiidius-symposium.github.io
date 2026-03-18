@@ -167,7 +167,7 @@ const speakers2026: Speaker[] = [
     name: 'Harry Reyes Nieva, PhD, MAS',
     affiliation: 'CUIMC Division of Infectious Diseases',
     title: 'Postdoctoral Research Scientist',
-    role: ['founder','program-chair'],
+    role: ['founder','program-chair','organizer'],
     bio: 'Dr. Reyes Nieva is a biomedical informatician specializing in artificial intelligence (AI) in medicine and public health. His research aims to advance precision health for all populations by harnessing AI and informatics to accelerate scientific knowledge discovery and translation at scale, strengthen next-generation learning health systems, and interrogate the ethical, legal, and social considerations necessary for the development of human-centered AI.',
     keywords: ['Human-Centered AI', 'Precision Health', 'Learning Health Systems', 'Clinical and Public Health Informatics'],
     headshot: '/raiidius/speakers/harry-reyes-nieva.jpg',
@@ -272,16 +272,16 @@ const speakers2026: Speaker[] = [
     keywords: ['Deep Learning', 'Medical Imaging', 'Clinical Informatics', 'General Cardiology'],
     headshot: '/raiidius/speakers/pierre-elias.jpg',
   },
-  {
-    id: 'speaker-12',
-    name: 'Karintha Holifield, MD',
-    affiliation: 'Housing Works Community Healthcare',
-    title: 'Medical Director, 125th Street Community Health Center',
-    role: 'panelist',
-    bio: 'Dr. Holifield is a board-certified internist and Medical Director for the Housing Works 125th Street Community Health Center. Dr. Holifield takes a thorough and personalized approach to internal medicine, focusing on effectively addressing diverse health challenges. She prioritizes preventive care and fosters a collaborative atmosphere where patients actively participate in their health journey. Combining medical expertise with clear communication, Dr. Holifield helps patients understand their conditions and available treatment options. Dr. Holifield earned her medical degree from the University of Miami and BA in Sociology from Yale University. She completed her residency in internal medicine from the Icahn School of Medicine at Mount Sinai Morningside and Mount Sinai West.',
-    keywords: ['Internal Medicine', 'HIV', 'Preventive Care', 'Patient Empowerment'],
-    headshot: '/raiidius/speakers/karintha-holifield.jpeg',
-  },
+//{
+//    id: 'speaker-12',
+//    name: 'Karintha Holifield, MD',
+//    affiliation: 'Housing Works Community Healthcare',
+//    title: 'Medical Director, 125th Street Community Health Center',
+//    role: 'panelist',
+//    bio: 'Dr. Holifield is a board-certified internist and Medical Director for the Housing Works 125th Street Community Health Center. Dr. Holifield takes a thorough and personalized approach to internal medicine, focusing on effectively addressing diverse health challenges. She prioritizes preventive care and fosters a collaborative atmosphere where patients actively participate in their health journey. Combining medical expertise with clear communication, Dr. Holifield helps patients understand their conditions and available treatment options. Dr. Holifield earned her medical degree from the University of Miami and BA in Sociology from Yale University. She completed her residency in internal medicine from the Icahn School of Medicine at Mount Sinai Morningside and Mount Sinai West.',
+//    keywords: ['Internal Medicine', 'HIV', 'Preventive Care', 'Patient Empowerment'],
+//    headshot: '/raiidius/speakers/karintha-holifield.jpeg',
+//  },
 ];
 
 
