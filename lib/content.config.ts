@@ -206,7 +206,7 @@ const speakers2026: Speaker[] = [
     name: 'Craig Heck, PhD, MPH',
     affiliation: 'CUIMC Division of Infectious Diseases',
     title: 'Postdoctoral Research Scientist',
-    role: 'presenter',
+    role: ['organizer','presenter'],
     bio: 'Dr. Heck is a postdoctoral research scientist in Columbia University’s Division of Infectious Diseases. He is an epidemiologist with a decade of experience researching HIV prevention strategies for key and vulnerable populations in eastern and southern Africa. His research primarily seeks to improve the availability, access, use, and continuation of HIV prevention services, methods, and interventions using social, behavioral, and implementation science approaches. Recently, he has been examining the dynamics of risk perception and its influence on risk-reduction behaviors. Dr. Heck is also interested in identifying and addressing social, structural, and systemic drivers of health disparities. Dr. Heck holds a PhD in epidemiology and an MPH in population and family health, both from the Columbia University Mailman School of Public Health.',
     keywords: ['Epidemiology','HIV Prevention','Risk Perception','Risk-Reduction Behaviors'],
     headshot: '/raiidius/speakers/craig-heck.jpg',
@@ -310,7 +310,7 @@ const agenda2026: Session[] = [
     format: 'session',
     startTime: '10:30 AM',
     endTime: '11:45 AM',
-    description: 'A condensed, hands-on tutorial inspired by Columbia’s OHDSI Summer School introducing the OHDSI community, open-source tools, and practical approaches to working with observational health data and generating real-world evidence.',
+    description: 'A condensed, hands-on tutorial inspired by the Columbia OHDSI Summer School introducing the OHDSI community, open-source tools, and practical approaches to working with observational health data and generating real-world evidence.',
   speakers: ['speaker-6', 'speaker-7'],
   },
   {
