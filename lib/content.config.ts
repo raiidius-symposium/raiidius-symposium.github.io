@@ -141,13 +141,6 @@ const partners2026: Partner[] = [
     description: 'The Division of Infectious Diseases at Columbia University Irving Medical Center (CUIMC) is devoted to excellence in patient care, research, and teaching, and to developing the next generation of leaders in academic medicine and public health.',
     url: 'https://www.infectiousdiseases.cuimc.columbia.edu/',
   },
-//  {
-//    id: 'dbmi',
-//    name: 'CUIMC Department of Biomedical Informatics',
-//    shortName: 'CUIMC DBMI',
-//    description: 'The Department of Biomedical Informatics at Columbia University Irving Medical Center (CUIMC) pursues theoretical and practical advances in AI, data science, and human-computer interaction, which will lead to better health and new biomedical knowledge.',
-//    url: 'https://www.dbmi.columbia.edu/',
-//  },
   {
     id: 'ai-vps',
     name: 'AI@VP&S Initiative',
@@ -159,7 +152,7 @@ const partners2026: Partner[] = [
     id: 'astda',
     name: 'American Sexually Transmitted Diseases Association',
     shortName: 'ASTDA',
-    description: 'The American Sexually Transmitted Diseases Association (ASTDA) aims to foster scientific knowledge, develop leadership, and champion practice in the field of sexually transmitted infections.',
+    description: 'The American Sexually Transmitted Diseases Association (ASTDA) aims to foster scientific knowledge, develop leadership, and champion practice in the field of sexually transmitted infections. ASTDA membership includes physicians, research scientists, nurses, public health professionals, and other STD investigators.',
     url: 'https://www.astda.org/',
   },
 ];
@@ -275,7 +268,7 @@ const speakers2026: Speaker[] = [
     affiliation: 'CUIMC Division of Cardiology and Department of Biomedical Informatics',
     title: 'Assistant Professor of Medicine at CUIMC',
     role: 'panelist',
-    bio: 'Pierre Elias is an Assistant Professor in the Division of Cardiology and the Department of Biomedical Informatics at Columbia University Irving Medical Center, where he practices as a general cardiologist. He is also the Medical Director for Artificial Intelligence at NewYork-Presbyterian. His research lab develops machine learning technologies for medical imaging to improve the detection and management of cardiovascular disease. Dr. Elias received his medical degree at Duke University School of Medicine in North Carolina. He completed his residency in Internal Medicine and fellowship in Cardiovascular Disease at NewYork-Presbyterian/Columbia University Irving Medical Center through the Clinician-Scientist Pathway. He completed his postdoc under Dr. Adler Perotte in the Department of Biomedical Informatics. He has been named a STAT News Wunderkind highlighting 20 of the most innovative junior researchers in the country and has received the Emerging Generation Award from the American Society of Clinical Investigation. He was previously a data scientist at Lumiata, helping develop Google's Knowledge Graph for Health.',
+    bio: 'Pierre Elias is an Assistant Professor in the Division of Cardiology and the Department of Biomedical Informatics at Columbia University Irving Medical Center, where he practices as a general cardiologist. He is also the Medical Director for Artificial Intelligence at NewYork-Presbyterian. His research lab develops machine learning technologies for medical imaging to improve the detection and management of cardiovascular disease. Dr. Elias received his medical degree at Duke University School of Medicine in North Carolina. He completed his residency in Internal Medicine and fellowship in Cardiovascular Disease at NewYork-Presbyterian/Columbia University Irving Medical Center through the Clinician-Scientist Pathway. He completed his postdoc under Dr. Adler Perotte in the Department of Biomedical Informatics. He has been named a STAT News Wunderkind highlighting 20 of the most innovative junior researchers in the country and has received the Emerging Generation Award from the American Society of Clinical Investigation. He was previously a data scientist at Lumiata, helping develop Google\'s Knowledge Graph for Health.',
     keywords: ['Deep Learning', 'Medical Imaging', 'Clinical Informatics', 'General Cardiology'],
     headshot: '/raiidius/speakers/pierre-elias.jpg',
   },
@@ -431,7 +424,7 @@ const importantDates2026: ImportantDate[] = [
     description: 'Submit your abstracts for oral or poster presentations.',
   },
   {
-    label: 'Early Registration Opens',
+    label: 'Registration Opens',
     date: 'March 15, 2026',
     description: 'Registration opens for attendees.',
   },
@@ -446,8 +439,8 @@ const importantDates2026: ImportantDate[] = [
     description: 'Authors notified of abstract acceptance.',
   },
   {
-    label: 'Early Registration Deadline',
-    date: 'May 15, 2026',
+    label: 'Registration Deadline',
+    date: 'May 30, 2026',
     description: 'Last day to register in advance.',
   },
   {
