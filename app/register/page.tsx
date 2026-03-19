@@ -1,10 +1,9 @@
 'use client';
 
 import Link from 'next/link';
-import { Ticket, Users, GraduationCap, Accessibility, FileText, ArrowRight, Calendar, MapPin } from 'lucide-react';
+import { Ticket, Users, Accessibility, FileText, ArrowRight, Calendar, MapPin } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
-import { Badge } from '@/components/ui/badge';
 import { Alert, AlertDescription } from '@/components/ui/alert';
 import { useEdition } from '@/lib/edition-context';
 import { siteConfig } from '@/lib/content.config';
@@ -21,24 +20,9 @@ const registrationOptions = [
       'Breakfast and lunch',
       'Networking reception',
       'Digital program materials',
-    ],
-    icon: Users,
-  },
-  {
-    id: 'trainee',
-    name: 'Trainee Registration',
-    description: 'Trainees are especially encouraged to attend and participate in the poster session.',
-    features: [
-      'All keynotes and sessions',
-      'OHDSI workshop tutorial',
-      'Poster session access',
-      'Breakfast and lunch',
-      'Networking reception',
-      'Digital program materials',
       'Poster presentation opportunities',
     ],
-    icon: GraduationCap,
-    highlighted: true,
+    icon: Users,
   },
 ];
 
@@ -53,8 +37,8 @@ export default function RegisterPage() {
             Register for {siteConfig.seriesAcronym} {currentEdition.year}
           </h1>
           <p className="mx-auto max-w-2xl text-lg text-muted-foreground">
-            Join us for a day of learning, discussion, and networking focused on
-            {' '}responsible AI for {currentEdition.themeShortTitle}.
+            Join us for a day of learning, discussion, and networking focused on{' '}
+            responsible AI for {currentEdition.themeShortTitle}.
           </p>
         </div>
 
@@ -65,7 +49,9 @@ export default function RegisterPage() {
           </div>
           <div className="flex items-center gap-2">
             <MapPin className="h-4 w-4" />
-            <span>{currentEdition.venue}, {currentEdition.city}</span>
+            <span>
+              {currentEdition.venue}, {currentEdition.city}
+            </span>
           </div>
         </div>
 
@@ -77,23 +63,23 @@ export default function RegisterPage() {
               <p className="mb-6 text-muted-foreground">
                 Attendance is free. Advance registration is encouraged.
               </p>
-<Button asChild size="lg" className="gap-2">
-  <a
-    href={currentEdition.registrationUrl}
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    Register Now
-    <ArrowRight className="h-4 w-4" />
-  </a>
-</Button>
+              <Button asChild size="lg" className="gap-2">
+                <a
+                  href={currentEdition.registrationUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Register Now
+                  <ArrowRight className="h-4 w-4" />
+                </a>
+              </Button>
             </>
           ) : (
             <>
               <h2 className="mb-2 text-xl font-semibold">Registration Coming Soon</h2>
               <p className="text-muted-foreground">
-                Registration for {siteConfig.seriesAcronym} {currentEdition.year} will open soon.
-                {' '}Sign up for our mailing list to be notified.
+                Registration for {siteConfig.seriesAcronym} {currentEdition.year} will open soon.{' '}
+                Sign up for our mailing list to be notified.
               </p>
             </>
           )}
@@ -101,20 +87,14 @@ export default function RegisterPage() {
 
         <section className="mb-12">
           <h2 className="mb-6 text-center text-2xl font-bold">Registration Overview</h2>
-          <div className="grid gap-6 md:grid-cols-2">
+          <div className="grid gap-6">
             {registrationOptions.map((option) => {
               const Icon = option.icon;
               return (
-                <Card
-                  key={option.id}
-                  className={option.highlighted ? 'border-primary/50 shadow-md' : ''}
-                >
+                <Card key={option.id}>
                   <CardHeader>
                     <div className="flex items-center justify-between">
                       <Icon className="h-8 w-8 text-primary" />
-                      {option.highlighted && (
-                        <Badge className="bg-primary text-primary-foreground">Recommended</Badge>
-                      )}
                     </div>
                     <CardTitle className="text-xl">{option.name}</CardTitle>
                     <CardDescription>{option.description}</CardDescription>
@@ -140,7 +120,7 @@ export default function RegisterPage() {
         </section>
 
         <section className="mb-12">
-          <h2 className="mb-6 text-2xl font-bold">What's Included</h2>
+          <h2 className="mb-6 text-2xl font-bold">What&apos;s Included</h2>
           <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3">
             {[
               'Full day of sessions',
@@ -163,11 +143,14 @@ export default function RegisterPage() {
             <Accessibility className="h-4 w-4" />
             <AlertDescription>
               <strong className="text-foreground">Accessibility Accommodations:</strong>{' '}
-              We are committed to making {siteConfig.seriesAcronym} accessible to all attendees.
-              {' '}If you require specific accommodations (e.g., sign language interpretation,
-              dietary restrictions, mobility assistance), please indicate this during
-              registration or contact us at{' '}
-              <a href={`mailto:${currentEdition.contactEmail}`} className="text-primary hover:underline">
+              We are committed to making {siteConfig.seriesAcronym} accessible to all attendees. If
+              you require specific accommodations (e.g., sign language interpretation, dietary
+              restrictions, mobility assistance), please indicate this during registration or
+              contact us at{' '}
+              <a
+                href={`mailto:${currentEdition.contactEmail}`}
+                className="text-primary hover:underline"
+              >
                 {currentEdition.contactEmail}
               </a>
               .
@@ -183,9 +166,9 @@ export default function RegisterPage() {
                 <div>
                   <h3 className="mb-2 font-semibold">Code of Conduct</h3>
                   <p className="mb-4 text-sm text-muted-foreground">
-                    All {siteConfig.seriesAcronym} participants are expected to adhere to our
-                    {' '}Code of Conduct, which promotes a professional, respectful, and inclusive
-                    {' '}environment for all attendees.
+                    All {siteConfig.seriesAcronym} participants are expected to adhere to our Code
+                    of Conduct, which promotes a professional, respectful, and inclusive
+                    environment for all attendees.
                   </p>
                   <Button asChild variant="outline" size="sm">
                     <Link href="/code-of-conduct">Read Code of Conduct</Link>
@@ -199,14 +182,13 @@ export default function RegisterPage() {
         <section className="mb-12">
           <h2 className="mb-4 text-xl font-bold">Attendance Policy</h2>
           <div className="space-y-2 text-sm text-muted-foreground">
-            <p>
-              Attendance at {siteConfig.seriesAcronym} {currentEdition.year} is free.
-            </p>
+            <p>Attendance at {siteConfig.seriesAcronym} {currentEdition.year} is free.</p>
             <p>
               Advance registration is encouraged so we can plan seating, materials, and catering.
             </p>
             <p>
-              If your plans change after registering, please let us know so we can release your spot to another attendee.
+              If your plans change after registering, please let us know so we can release your
+              spot to another attendee.
             </p>
           </div>
         </section>
@@ -215,7 +197,10 @@ export default function RegisterPage() {
           <h2 className="mb-2 text-lg font-semibold">Questions About Registration?</h2>
           <p className="text-muted-foreground">
             Contact us at{' '}
-            <a href={`mailto:${currentEdition.contactEmail}`} className="text-primary hover:underline">
+            <a
+              href={`mailto:${currentEdition.contactEmail}`}
+              className="text-primary hover:underline"
+            >
               {currentEdition.contactEmail}
             </a>
           </p>
