@@ -336,7 +336,7 @@ const agenda2026: Session[] = [
     format: 'session',
     startTime: '10:00 AM',
     endTime: '10:50 AM',
-    description: TBD.,
+    description: 'TBD.',
 //  description: 'Presentations on sexual-health chatbots, adherence apps, and patient outreach tools leveraging AI to improve engagement and outcomes.',
     location: 'VEC 401',
     speakers: [],
@@ -375,8 +375,7 @@ const agenda2026: Session[] = [
     format: 'session',
     startTime: '1:00 PM',
     endTime: '2:30 PM',
-    description: 'A condensed, hands-on tutorial inspired by the Colu
-mbia OHDSI Summer School introducing the OHDSI community, open-source tools, and practical approaches to working with observational health data and generating real-world evidence.',
+    description: 'A condensed, hands-on tutorial inspired by the Columbia OHDSI Summer School introducing the OHDSI community, open-source tools, and practical approaches to working with observational health data and generating real-world evidence.',
     location: 'VEC 401',
     speakers: ['speaker-8', 'speaker-9'],
   },
@@ -426,7 +425,7 @@ mbia OHDSI Summer School introducing the OHDSI community, open-source tools, and
     description: 'Join us for refreshments, continued conversation, and dedicated poster viewing time featuring trainee research on AI and informatics methods for infectious disease applications.',
     location: 'VEC Lobby',
   },
-
+]
 // -----------------------------------------------------------------------------
 // Breakout Tracks for 2026
 // -----------------------------------------------------------------------------
