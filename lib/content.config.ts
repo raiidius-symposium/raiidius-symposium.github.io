@@ -145,7 +145,7 @@ const partners2026: Partner[] = [
     id: 'ai-vps',
     name: 'AI@VP&S Initiative',
     shortName: 'AI@VP&S',
-    description: 'The AI@VP&S Initiative at Columbia Vagelos College of Physicians and Surgeons (VP&S) spearheads innovative, safe, and equitable AI through collaborative research, transformative education, bi-directional community engagement, and patient-centered and clinician-supportive approaches.',
+    description: 'The AI@VP&S Initiative at Columbia Vagelos College of Physicians and Surgeons (VP&S) spearheads innovative, safe, and responsible AI through collaborative research, transformative education, bi-directional community engagement, and patient-centered and clinician-supportive approaches.',
     url: 'https://www.vagelos.columbia.edu/',
   },
   {
@@ -495,7 +495,7 @@ const themes2026: Theme[] = [
   {
     id: 'ethics',
     title: 'Ethical, Legal, and Social Implications',
-    description: 'Algorithmic fairness, addressing health disparities, ensuring equitable access to AI-powered tools.',
+    description: 'Interrogating important notions including trust, transparency, governance, alignment, and potential for harm.',
     icon: 'scale',
   },
   {
