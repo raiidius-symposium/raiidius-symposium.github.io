@@ -330,7 +330,7 @@ const agenda2026: Session[] = [
     speakers: ['speaker-2'],
   },
   {
-    id: 'patient-engagement',
+    id: 'oral-session-1',
     title: 'Session 1: Oral Presentations',
 //    title: 'Session 1: AI-Powered Patient Engagement Tools',
     format: 'session',
@@ -358,7 +358,7 @@ const agenda2026: Session[] = [
     endTime: '12:00 PM',
     description: '"Implementing AI in Clinical and Public Health STI Practice" — Panel includes clinicians, public health leaders, and community advocates discussing real-world implementation challenges and opportunities.',
     location: 'VEC 401',
-    speakers: ['speaker-4', 'speaker-5', 'speaker-6','speaker-11'],
+    speakers: ['speaker-4', 'speaker-5', 'speaker-6'],
   },
   {
     id: 'lunch-poster',
@@ -389,7 +389,7 @@ const agenda2026: Session[] = [
     location: 'VEC 401 Atrium',
   },
   {
-    id: 'patient-engagement',
+    id: 'oral-session-2',
     title: 'Session2: Oral Presentations',
     format: 'session',
     startTime: '2:30 PM',
@@ -425,7 +425,7 @@ const agenda2026: Session[] = [
     description: 'Join us for refreshments, continued conversation, and dedicated poster viewing time featuring trainee research on AI and informatics methods for infectious disease applications.',
     location: 'VEC Lobby',
   },
-]
+];
 // -----------------------------------------------------------------------------
 // Breakout Tracks for 2026
 // -----------------------------------------------------------------------------
@@ -668,7 +668,7 @@ export const whatToExpectCards = [
   },
   {
     title: 'OHDSI Workshop Tutorial',
-  description: 'Join a condensed tutorial inspired by Columbia’s OHDSI Summer School on observational health data science and real-world evidence.',
+    description: 'Join a condensed tutorial inspired by Columbia’s OHDSI Summer School on observational health data science and real-world evidence.',
     icon: 'users',
   },
   {
