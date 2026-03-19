@@ -174,7 +174,7 @@ export default function AbstractsPage() {
             <CardContent className="pt-6">
               <h2 className="mb-3 text-xl font-bold">Trainee Poster Session</h2>
               <p className="text-muted-foreground leading-relaxed">
-                We especially encourage submissions from students, residents, fellows, 
+                We especially encourage submissions from students, residents, clinical fellows, 
                 and postdoctoral researchers. The poster session provides a dedicated 
                 opportunity for trainees to showcase their AI and informatics research, 
                 receive feedback from experts, and network with peers in the field.
