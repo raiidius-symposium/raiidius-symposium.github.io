@@ -102,7 +102,7 @@ export default function AboutPage() {
             <p>
               However, realizing this potential requires navigating significant challenges: 
               data quality and availability constraints, siloed expertise across clinical, 
-              technical, and public health domains, concerns about algorithmic bias and equity, 
+              technical, and public health domains, concerns about model limitations and fairness, 
               and the complexities of implementing AI tools in real-world healthcare settings.
             </p>
             <p>
@@ -110,7 +110,7 @@ export default function AboutPage() {
               address these challenges by convening cross-disciplinary stakeholders to advance the 
               responsible adoption of AI and informatics in infectious disease prevention and control. 
               Our symposium series provides a forum for researchers, clinicians, public health 
-              professionals, data scientists, and community advocates to share knowledge, discuss 
+              professionals, data scientists, and community stakeholders to share knowledge, discuss 
               ethical considerations, and build collaborations.
             </p>
           </div>
@@ -170,7 +170,7 @@ export default function AboutPage() {
               </p>
             </div>
             <div className="rounded-lg border p-4">
-              <h3 className="font-semibold mb-2">Health Equity</h3>
+              <h3 className="font-semibold mb-2">Healthcare For All</h3>
               <p className="text-sm text-muted-foreground">
                 We are committed to ensuring AI tools benefit all populations and do not 
                 exacerbate existing health disparities.
