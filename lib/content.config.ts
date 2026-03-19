@@ -390,7 +390,7 @@ const agenda2026: Session[] = [
   },
   {
     id: 'oral-session-2',
-    title: 'Session2: Oral Presentations',
+    title: 'Session 2: Oral Presentations',
     format: 'session',
     startTime: '2:30 PM',
     endTime: '3:20 PM',
