@@ -39,12 +39,16 @@ export default function AbstractsPage() {
             Share your work with the {siteConfig.seriesAcronym} community.
           </p>
           {currentEdition.isActive && currentEdition.submissionUrl ? (
-            <Button asChild size="lg" className="gap-2">
-              <Link href={currentEdition.submissionUrl}>
-                Submit Your Abstract
-                <ArrowRight className="h-4 w-4" />
-              </Link>
-            </Button>
+<Button asChild size="lg" className="gap-2">
+  <a
+    href={currentEdition.submissionUrl}
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Submit Your Abstract
+    <ArrowRight className="h-4 w-4" />
+  </a>
+</Button>
           ) : (
             <Button disabled size="lg">
               Submissions Not Yet Open

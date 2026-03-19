@@ -78,11 +78,15 @@ export default function RegisterPage() {
                 Attendance is free. Advance registration is encouraged.
               </p>
               <Button asChild size="lg" className="gap-2">
-                <a href={currentEdition.registrationUrl}>
-                  Register Now
-                  <ArrowRight className="h-4 w-4" />
-                </a>
-              </Button>
+  <a
+    href={currentEdition.registrationUrl}
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Register Now
+    <ArrowRight className="h-4 w-4" />
+  </a>
+</Button>
             </>
           ) : (
             <>

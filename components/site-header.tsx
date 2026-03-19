@@ -70,16 +70,16 @@ export function SiteHeader() {
 
           {/* CTA Buttons - Desktop */}
           <div className="hidden items-center gap-2 md:flex">
-            <Button asChild size="sm">
-              <Link href={currentEdition.registrationUrl || '/register'}>
-                Register
-              </Link>
-            </Button>
-            <Button asChild variant="outline" size="sm">
-              <Link href={currentEdition.submissionUrl || '/abstracts'}>
-                Submit
-              </Link>
-            </Button>
+<Button asChild size="sm">
+  <Link href={currentEdition.registrationUrl || '/register'}>
+    Register
+  </Link>
+</Button>
+<Button asChild variant="outline" size="sm">
+  <Link href={currentEdition.submissionUrl || '/abstracts'}>
+    Submit
+  </Link>
+</Button>
           </div>
 
           {/* Mobile Menu */}
@@ -109,23 +109,23 @@ export function SiteHeader() {
                 ))}
               </nav>
               <div className="mt-6 flex flex-col gap-2 border-t pt-6">
-                <Button asChild>
-                  <Link
-                    href={currentEdition.registrationUrl || '/register'}
-                    onClick={() => setMobileMenuOpen(false)}
-                  >
-                    Register
-                  </Link>
-                </Button>
-                <Button asChild variant="outline">
-                  <Link
-                    href={currentEdition.submissionUrl || '/abstracts'}
-                    onClick={() => setMobileMenuOpen(false)}
-                  >
-                    Submit Abstract
-                  </Link>
-                </Button>
-              </div>
+<Button asChild>
+  <Link
+    href={currentEdition.registrationUrl || '/register'}
+    onClick={() => setMobileMenuOpen(false)}
+  >
+    Register
+  </Link>
+</Button>
+<Button asChild variant="outline">
+  <Link
+    href={currentEdition.submissionUrl || '/abstracts'}
+    onClick={() => setMobileMenuOpen(false)}
+  >
+    Submit Abstract
+  </Link>
+</Button>
+     </div>
             </SheetContent>
           </Sheet>
         </div>

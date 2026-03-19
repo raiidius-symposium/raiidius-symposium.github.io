@@ -69,16 +69,16 @@ export function HeroSection() {
           <div className="flex flex-wrap items-center justify-center gap-4">
             {currentEdition.isActive ? (
               <>
-                <Button asChild size="lg" className="min-w-[160px]">
-                  <Link href={currentEdition.registrationUrl || '/register'}>
-                    Register Now
-                  </Link>
-                </Button>
-                <Button asChild variant="outline" size="lg" className="min-w-[200px]">
-                  <Link href={currentEdition.submissionUrl || '/abstracts'}>
-                    Submit Abstract / Poster
-                  </Link>
-                </Button>
+<Button asChild size="lg" className="min-w-[160px]">
+  <Link href={currentEdition.registrationUrl || '/register'}>
+    Register Now
+  </Link>
+</Button>
+<Button asChild variant="outline" size="lg" className="min-w-[200px]">
+  <Link href={currentEdition.submissionUrl || '/abstracts'}>
+    Submit Abstract / Poster
+  </Link>
+</Button>
                 <Button 
                   variant="ghost" 
                   size="lg" 
