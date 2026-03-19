@@ -89,7 +89,7 @@ export function MailingListSection() {
           )}
 
           <p className="mt-4 text-xs text-primary-foreground/60">
-            We respect your privacy. Unsubscribe at any time.
+            We respect your privacy. To unsubscribe, please email raiidius@cumc.columbia.edu.
           </p>
         </div>
       </div>

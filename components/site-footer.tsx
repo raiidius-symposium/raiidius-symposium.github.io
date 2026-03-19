@@ -84,22 +84,22 @@ export function SiteFooter() {
                 <Mail className="h-4 w-4" />
                 {currentEdition.contactEmail}
               </a>
-              <div className="flex gap-3 pt-2">
-                <a
-                  href={siteConfig.socialLinks.twitter}
-                  className="text-muted-foreground hover:text-foreground transition-colors"
-                  aria-label="Twitter"
-                >
-                  <Twitter className="h-5 w-5" />
-                </a>
-                <a
-                  href={siteConfig.socialLinks.linkedin}
-                  className="text-muted-foreground hover:text-foreground transition-colors"
-                  aria-label="LinkedIn"
-                >
-                  <Linkedin className="h-5 w-5" />
-                </a>
-              </div>
+//              <div className="flex gap-3 pt-2">
+//                <a
+//                  href={siteConfig.socialLinks.twitter}
+//                  className="text-muted-foreground hover:text-foreground transition-colors"
+//                  aria-label="Twitter"
+//                >
+//                  <Twitter className="h-5 w-5" />
+//                </a>
+//                <a
+//                  href={siteConfig.socialLinks.linkedin}
+//                  className="text-muted-foreground hover:text-foreground transition-colors"
+//                  aria-label="LinkedIn"
+//                >
+//                  <Linkedin className="h-5 w-5" />
+//                </a>
+//              </div>
             </div>
           </div>
         </div>
