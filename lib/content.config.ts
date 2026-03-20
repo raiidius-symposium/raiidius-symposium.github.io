@@ -373,7 +373,7 @@ const agenda2026: Session[] = [
     startTime: '1:50 PM',
     endTime: '2:00 PM',
     description: 'Refreshments and continued networking.',
-    location: 'VEC Atrium',
+    location: 'VEC Lobby Atrium',
   },
     {
     id: 'roundtable',
@@ -391,7 +391,7 @@ const agenda2026: Session[] = [
     startTime: '3:30 PM',
     endTime: '4:45 PM',
     description: 'A condensed, hands-on tutorial inspired by the Columbia OHDSI Summer School introducing the OHDSI community, open-source tools, and practical approaches to working with observational health data and generating real-world evidence.',
-    location: 'VEC 201',
+    location: 'VEC 401',
     speakers: ['speaker-8', 'speaker-9'],
   },
 
