@@ -720,18 +720,18 @@ export const submissionGuidelines = {
 export const anticipatedOutcomes = [
   {
     title: 'Cross-Disciplinary Dialogue',
-    description: 'Foster collaboration between AI researchers, clinicians, epidemiologists, and public health professionals.',
+    description: 'Foster collaboration among AI researchers, biological and translational scientists, clinicians, epidemiologists, and public health professionals.',
   },
   {
     title: 'Early-Career Development',
-    description: 'Provide exposure to AI/informatics methods and professional development resources for trainees.',
+    description: 'Provide exposure to AI and informatics methods, interdisciplinary perspectives, and professional development resources for trainees.',
   },
   {
     title: 'White Paper & Recommendations',
-    description: 'Develop a summary document outlining key findings, recommendations, and next steps for the field.',
+    description: 'Develop a summary document outlining key insights, recommendations, and next steps for AI and informatics across biological, translational, clinical, and public health infectious disease research.',
   },
   {
     title: 'Community Building',
-    description: 'Establish a network of stakeholders committed to responsible AI adoption in infectious disease prevention.',
+    description: 'Establish a network of stakeholders committed to advancing responsible AI and informatics across the full spectrum of infectious disease discovery, translation, care, and public health action.',
   },
 ];
