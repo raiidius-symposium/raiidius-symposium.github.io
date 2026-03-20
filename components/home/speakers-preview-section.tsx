@@ -61,7 +61,7 @@ export function SpeakersPreviewSection() {
                 Featured Speakers
               </h2>
               <p className="text-muted-foreground">
-                Learn from leading experts in AI, infectious diseases, and public health.
+                Learn from leading experts in AI and infectious diseases.
               </p>
             </div>
             <Button asChild variant="outline" className="gap-2">
