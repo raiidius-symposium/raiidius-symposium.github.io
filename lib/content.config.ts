@@ -643,6 +643,7 @@ export const navigationLinks = [
   { href: '/abstracts', label: 'Abstracts' },
   { href: '/workshops', label: 'Workshops' },
   { href: '/venue', label: 'Venue' },
+  { href: '/sponsors', label: 'Sponsors' },
   { href: '/editions', label: 'Editions' },
 ];
 
