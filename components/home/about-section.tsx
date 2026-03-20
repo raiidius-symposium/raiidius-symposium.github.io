@@ -16,9 +16,9 @@ export function AboutSection() {
               About {siteConfig.seriesAcronym}
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              {siteConfig.seriesDescription} Each year, we bring together researchers, clinicians, 
-              public health professionals, data scientists, and community advocates to explore 
-              how AI and informatics can responsibly transform infectious disease prevention and control.
+              {siteConfig.seriesDescription} Each year, we bring together researchers, clinicians, public health professionals, 
+              data scientists, and other stakeholders to explore how AI and informatics can responsibly 
+              accelerate infectious disease discovery, improve clinical care, and strengthen public health action.
             </p>
           </div>
 
