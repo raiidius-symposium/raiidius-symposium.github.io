@@ -343,7 +343,7 @@ const agenda2026: Session[] = [
     format: 'panel',
     startTime: '11:00 AM',
     endTime: '12:00 PM',
-    description: 'Panel includes scientists, clinicians, public health leaders, and other experts discussing how AI and informatics can support biological discovery, translational research, clinical care, and public health action in sexually transmitted infections.',
+    description: 'Panel includes scientists, clinicians, public health leaders, and other experts discuss the promise and perils of AI and informatics for biological discovery, translational research, clinical care, and public health action in sexually transmitted infections.',
     location: 'VEC 201',
     speakers: ['speaker-4',],
   },
