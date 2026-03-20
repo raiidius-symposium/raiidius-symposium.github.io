@@ -637,12 +637,12 @@ export function getSessionSpeakers(edition: Edition, session: Session): Speaker[
 
 export const navigationLinks = [
   { href: '/', label: 'Home' },
+  { href: '/about', label: 'About' },
   { href: '/program', label: 'Program' },
   { href: '/speakers', label: 'Speakers' },
   { href: '/abstracts', label: 'Abstracts' },
   { href: '/workshops', label: 'Workshops' },
   { href: '/venue', label: 'Venue' },
-  { href: '/about', label: 'About' },
   { href: '/editions', label: 'Editions' },
 ];
 
