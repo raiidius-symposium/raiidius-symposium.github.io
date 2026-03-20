@@ -321,7 +321,6 @@ const agenda2026: Session[] = [
   {
     id: 'oral-session-1',
     title: 'Session 1: Oral Presentations',
-//    title: 'Session 1: AI-Powered Patient Engagement Tools',
     format: 'session',
     startTime: '10:00 AM',
     endTime: '10:50 AM',
@@ -340,11 +339,11 @@ const agenda2026: Session[] = [
   },
   {
     id: 'panel',
-    title: 'Panel Discussion & Q&A',
+    title: 'Panel Discussion: Responsible AI Across the STI Research Continuum',
     format: 'panel',
     startTime: '11:00 AM',
     endTime: '12:00 PM',
-    description: '"Responsible AI Across the STI Research Continuum" — Panel includes scientists, clinicians, public health leaders, and other experts discussing how AI and informatics can support biological discovery, translational research, clinical care, and public health action in sexually transmitted infections.',
+    description: 'Panel includes scientists, clinicians, public health leaders, and other experts discussing how AI and informatics can support biological discovery, translational research, clinical care, and public health action in sexually transmitted infections.',
     location: 'VEC 201',
     speakers: ['speaker-4',],
   },
@@ -388,11 +387,11 @@ const agenda2026: Session[] = [
   },
   {
     id: 'roundtable',
-    title: 'Roundtable Discussions: Next Steps',
+    title: 'Roundtable Discussions: Next Steps - Collaborations, Pilots & Policy',
     format: 'roundtable',
     startTime: '3:20 PM',
     endTime: '4:40 PM',
-    description: '"Next Steps: Collaborations, Pilots & Policy" — Planning future initiatives and multidisciplinary partnerships to advance responsible AI in STI prevention.',
+    description: 'Planning future initiatives and multidisciplinary partnerships to advance responsible AI in STI prevention.',
     location: 'VEC 201',
   },
   {
