@@ -83,18 +83,6 @@ export default function VenuePage() {
       />
     </div>
   </div>
-  <div className="mt-3 flex justify-end">
-    <Button asChild variant="outline" size="sm">
-      <a
-        href={currentEdition.mapUrl || `https://maps.google.com/?q=${encodeURIComponent(currentEdition.fullAddress)}`}
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Open in Google Maps
-        <ExternalLink className="ml-2 h-4 w-4" />
-      </a>
-    </Button>
-  </div>
 </section>
         {/* Getting Here */}
         <section className="mb-12">
