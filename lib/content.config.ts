@@ -356,7 +356,7 @@ const agenda2026: Session[] = [
     format: 'panel',
     startTime: '11:00 AM',
     endTime: '12:00 PM',
-    description: '"Implementing AI in Clinical and Public Health STI Practice" — Panel includes clinicians, public health leaders, and community advocates discussing real-world implementation challenges and opportunities.',
+    description: '"Responsible AI Across the STI Research Continuum" — Panel includes scientists, clinicians, public health leaders, and other experts discussing how AI and informatics can support biological discovery, translational research, clinical care, and public health action in sexually transmitted infections.',
     location: 'VEC 401',
     speakers: ['speaker-4', 'speaker-5', 'speaker-6'],
   },
