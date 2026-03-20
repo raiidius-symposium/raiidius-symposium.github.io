@@ -11,25 +11,25 @@ export default function SponsorsPage() {
 
   const currentSponsors = [
     {
-      name: 'American Sexually Transmitted Diseases Association (ASTDA)',
+      name: 'CUIMC Division of Infectious Diseases',
       description:
-        'ASTDA supports the inaugural RAIIDIUS symposium and its mission to advance responsible AI and informatics for infectious diseases.',
-      url: 'https://www.astda.org/',
-      category: 'Sponsor',
+        'The Division of Infectious Diseases at Columbia University Irving Medical Center serves as the host institution for RAIIDIUS. The division is devoted to excellence in patient care, research, and teaching, and to developing the next generation of leaders in academic medicine and public health.',
+      url: 'https://www.infectiousdiseases.cuimc.columbia.edu/',
+      category: 'Host',
     },
     {
       name: 'AI@VP&S Initiative',
       description:
-        'The AI@VP&S Initiative supports interdisciplinary innovation in artificial intelligence across Columbia Vagelos College of Physicians and Surgeons.',
-      url: 'https://www.vagelos.columbia.edu/',
+        'The AI@VP&S Initiative at Columbia Vagelos College of Physicians and Surgeons (VP&S) spearheads innovative, safe, and responsible AI through collaborative research, transformative education, bi-directional community engagement, and patient-centered and clinician-supportive approaches.',
+      url: 'https://www.vagelos.columbia.edu/departments-centers/ai-vp-s-initiative',
       category: 'Sponsor',
     },
     {
-      name: 'CUIMC Division of Infectious Diseases',
+      name: 'American Sexually Transmitted Diseases Association (ASTDA)',
       description:
-        'The Division of Infectious Diseases at Columbia University Irving Medical Center serves as the host institution for RAIIDIUS 2026.',
-      url: 'https://www.infectiousdiseases.cuimc.columbia.edu/',
-      category: 'Host',
+        'ASTDA supports the inaugural RAIIDIUS symposium and its mission to advance responsible AI and informatics for infectious diseases. ASTDA aims to foster scientific knowledge, develop leadership, and champion practice in the field of sexually transmitted infections. ASTDA membership includes physicians, research scientists, nurses, public health professionals, and other STD investigators.',
+      url: 'https://www.astda.org/',
+      category: 'Sponsor',
     },
   ];
 
@@ -71,7 +71,7 @@ export default function SponsorsPage() {
             <CardContent className="pt-6">
               <h2 className="mb-3 text-xl font-semibold">Why Sponsor RAIIDIUS?</h2>
               <p className="leading-relaxed text-muted-foreground">
-                {siteConfig.seriesAcronym} is a Columbia-led annual symposium designed to bring
+                {siteConfig.seriesAcronym} is an annual symposium designed to bring
                 together researchers, clinicians, public health professionals, trainees, and
                 technologists working at the intersection of AI, informatics, and infectious
                 disease science. Sponsorship helps support scientific exchange, cross-disciplinary
