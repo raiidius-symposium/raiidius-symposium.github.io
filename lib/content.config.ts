@@ -343,7 +343,7 @@ const agenda2026: Session[] = [
     format: 'panel',
     startTime: '11:00 AM',
     endTime: '12:00 PM',
-    description: 'Panel includes scientists, clinicians, public health leaders, and other experts discuss the promise and perils of AI and informatics for biological discovery, translational research, clinical care, and public health action in sexually transmitted infections.',
+    description: 'Panel includes scientists, clinicians, public health leaders, and other experts discussing the promise and perils of AI and informatics for biological discovery, translational research, clinical care, and public health action in sexually transmitted infections.',
     location: 'VEC 201',
     speakers: ['speaker-4',],
   },
@@ -353,7 +353,7 @@ const agenda2026: Session[] = [
     format: 'lunch',
     startTime: '12:00 PM',
     endTime: '1:00 PM',
-    description: 'Enjoy lunch while previewing poster presentations showcasing AI-based STI research.',
+    description: 'Enjoy lunch while previewing poster presentations showcasing AI- and informatics-based STI research.',
     location: 'VEC Lobby Atrium',
   },
   {
@@ -381,7 +381,7 @@ const agenda2026: Session[] = [
     format: 'roundtable',
     startTime: '2:00 PM',
     endTime: '3:30 PM',
-    description: 'Planning future initiatives and multidisciplinary partnerships to advance responsible AI in STI prevention.',
+    description: 'Planning future initiatives and multidisciplinary partnerships to advance responsible AI and informatics in STI research.',
     location: 'VEC Lobby Atrium and VEC 401',
   },
     {
@@ -411,7 +411,7 @@ const agenda2026: Session[] = [
     format: 'poster',
     startTime: '5:00 PM',
     endTime: '7:00 PM',
-    description: 'Join us for refreshments, continued conversation, and dedicated poster viewing time featuring trainee research on AI and informatics methods for infectious disease applications.',
+    description: 'Join us for refreshments, continued conversation, and dedicated poster viewing time featuring research on AI and informatics methods and applications in infectious disease research.',
     location: 'VEC Lobby Atrium',
   },
 ];
