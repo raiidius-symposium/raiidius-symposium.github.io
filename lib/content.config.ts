@@ -377,7 +377,7 @@ const agenda2026: Session[] = [
   },
     {
     id: 'roundtable',
-    title: 'Roundtable Discussions: Next Steps - Collaborations, Pilots & Policy',
+    title: 'Roundtable Discussions: Next Steps - Collaborations, Pilots, & Policy',
     format: 'roundtable',
     startTime: '2:00 PM',
     endTime: '3:30 PM',
