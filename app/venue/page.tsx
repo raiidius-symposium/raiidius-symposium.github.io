@@ -97,13 +97,13 @@ export default function VenuePage() {
               </CardHeader>
               <CardContent className="text-sm text-muted-foreground space-y-2">
                 <p>
-                  <strong>1 Train:</strong> 168th Street station (walk north on Fort Washington Ave)
+                  <strong>1 or C Train:</strong> 168th Street station
                 </p>
                 <p>
-                  <strong>A Train:</strong> 168th Street station (transfer to 1 or walk)
+                  <strong>A Train:</strong> 175th Street station
                 </p>
                 <p className="text-xs">
-                  ~10 minute walk from the station to the venue.
+                  ~5-10 minute walk from the station to the venue.
                 </p>
               </CardContent>
             </Card>
