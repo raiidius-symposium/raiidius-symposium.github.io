@@ -8,12 +8,12 @@ export function generateICSFile(edition: Edition): string {
     return date.toISOString().replace(/[-:]/g, '').split('.')[0] + 'Z';
   };
   
-  // Set event times (8:00 AM - 6:15 PM ET)
+  // Set event times (8:00 AM - 7:00 PM ET)
   const startDate = new Date(eventDate);
   startDate.setUTCHours(12, 0, 0, 0); // 8 AM ET = 12:00 UTC
   
   const endDate = new Date(eventDate);
-  endDate.setUTCHours(22, 15, 0, 0); // 6:15 PM ET = 22:15 UTC
+  endDate.setUTCHours(23, 0, 0, 0); // 7 PM ET = 23:00 UTC
 
   const icsContent = `BEGIN:VCALENDAR
 VERSION:2.0
