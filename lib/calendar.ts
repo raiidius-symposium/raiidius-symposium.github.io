@@ -24,7 +24,7 @@ BEGIN:VEVENT
 DTSTART:${formatDate(startDate)}
 DTEND:${formatDate(endDate)}
 SUMMARY:RAIIDIUS ${edition.year} - ${edition.themeShortTitle}
-DESCRIPTION:${edition.themeTitle}. ${edition.themeDescription.slice(0, 200)}...
+DESCRIPTION:${edition.themeTitle}. ${edition.themeDescription}
 LOCATION:${edition.venue}, ${edition.venueRoom}, ${edition.fullAddress}
 URL:https://www.raiidius.org
 STATUS:CONFIRMED
