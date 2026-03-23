@@ -25,10 +25,14 @@ export function HeroSection() {
       
       <div className="container relative mx-auto px-4">
         <div className="mx-auto max-w-4xl text-center">
-          {/* Main Title */}
-          <h1 className="mb-4 text-5xl font-bold tracking-tight text-primary md:text-7xl">
-            {siteConfig.seriesAcronym}
-          </h1>
+<h1 className="mb-4 flex items-center justify-center text-5xl font-bold tracking-tight text-primary md:text-7xl">
+  <img
+    src="/raiidius-logo.png"
+    alt="R"
+    className="mr-[0.02em] h-[1.15em] w-[1.15em] object-contain"
+  />
+  <span className="-ml-[0.25em]">AIIDIUS</span>
+</h1>
           
           {/* Tagline */}
 <p className="mb-8 text-lg text-muted-foreground md:text-xl leading-relaxed max-w-3xl mx-auto">
