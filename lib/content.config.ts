@@ -216,7 +216,7 @@ const speakers2026: Speaker[] = [
     id: 'speaker-6',
     name: 'Preeti Pathela, DrPH, MPH',
     affiliation: 'NYC Department of Health and Mental Hygiene',
-    title: 'Executive Director - STI Program, NYC Bureau of Hepatitis, HIV, and Sexually Transmitted Infections',
+    title: 'Executive Director - STI Program, Bureau of Hepatitis, HIV, and Sexually Transmitted Infections',
     role: ['panelist'],
     bio: 'Dr. Pathela is the Executive Director of the STI Program in the Bureau of Hepatitis, HIV, and STI at the New York City Department of Health and Mental Hygiene (NYC DOHMH). She has overall responsibility for directing, evaluating, and coordinating the activities of the Program, which consists of roughly 90 staff who conduct work in STI program implementation, surveillance and field operations, and epidemiology, research and evaluation. She serves on the American STD Association’s Board of Directors and as an Associate Editor of the journal Sexually Transmitted Diseases.',
     keywords: ['HIV', 'STIs', 'Public Health','Program Implementation'],
