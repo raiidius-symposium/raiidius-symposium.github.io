@@ -197,7 +197,7 @@ const speakers2026: Speaker[] = [
     name: 'Magdalena E. Sobieszczyk, MD, MPH',
     affiliation: 'CUIMC Division of Infectious Diseases',
    title: 'Harold C. Neu Professor of Infectious Diseases and Chief of Infectious Diseases at CUIMC',
-    role: ['moderator','organizer'],
+    role: ['moderator',],
     bio: 'Dr. Sobieszczyk is the Harold Neu Professor of Infectious Diseases (in Medicine) at the Columbia University Medical Center. She is the Chief of Infectious Diseases at the Columbia University Irving Medical Center in New York. Dr. Sobieszczyk is a clinical virologist and the principal investigator of the NIH-funded Columbia Collaborative Clinical Trials Unit which has been advancing the science of HIV and emerging infections like SARS-CoV-2.',
     keywords: ['Clinical Virology', 'HIV Clinical Trials', 'HIV Vaccines', 'HIV Care'],
     headshot: '/speakers/magdalena-sobieszczyk.jpg',
