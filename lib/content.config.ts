@@ -197,7 +197,7 @@ const speakers2026: Speaker[] = [
     name: 'Magdalena E. Sobieszczyk, MD, MPH',
     affiliation: 'CUIMC Division of Infectious Diseases',
    title: 'Harold C. Neu Professor of Infectious Diseases and Chief of Infectious Diseases at CUIMC',
-    role: ['moderator',],
+    role: ['moderator','organizer'],
     bio: 'Dr. Sobieszczyk is the Harold Neu Professor of Infectious Diseases (in Medicine) at the Columbia University Medical Center. She is the Chief of Infectious Diseases at the Columbia University Irving Medical Center in New York. Dr. Sobieszczyk is a clinical virologist and the principal investigator of the NIH-funded Columbia Collaborative Clinical Trials Unit which has been advancing the science of HIV and emerging infections like SARS-CoV-2.',
     keywords: ['Clinical Virology', 'HIV Clinical Trials', 'HIV Vaccines', 'HIV Care'],
     headshot: '/speakers/magdalena-sobieszczyk.jpg',
@@ -272,26 +272,6 @@ const speakers2026: Speaker[] = [
     keywords: ['Biomedical Informatics', 'Clinical Genomics', 'Personalized Medicine', 'Biomedical Ontologies'],
     headshot: '/speakers/michael-cantor.png',
   },
-//  {
-//    id: 'speaker-12',
-//    name: 'Pierre Elias, MD',
-//    affiliation: 'CUIMC Division of Cardiology and Department of Biomedical Informatics',
-//    title: 'Assistant Professor of Medicine at CUIMC',
-//    role: 'panelist',
-//    bio: 'Dr. Elias is an Assistant Professor in the Division of Cardiology and the Department of Biomedical Informatics at Columbia University Irving Medical Center, where he practices as a general cardiologist. He is also the Medical Director for Artificial Intelligence at NewYork-Presbyterian. His research lab develops machine learning technologies for medical imaging to improve the detection and management of cardiovascular disease. Dr. Elias received his medical degree at Duke University School of Medicine in North Carolina. He completed his residency in Internal Medicine and fellowship in Cardiovascular Disease at NewYork-Presbyterian/Columbia University Irving Medical Center through the Clinician-Scientist Pathway. He completed his postdoc under Dr. Adler Perotte in the Department of Biomedical Informatics. He has been named a STAT News Wunderkind highlighting 20 of the most innovative junior researchers in the country and has received the Emerging Generation Award from the American Society of Clinical Investigation. He was previously a data scientist at Lumiata, helping develop Google\'s Knowledge Graph for Health.',
-//    keywords: ['Deep Learning', 'Medical Imaging', 'Clinical Informatics', 'General Cardiology'],
-//    headshot: '/speakers/pierre-elias.jpg',
-//  },
-//  {
-//    id: 'speaker-13',
-//    name: 'Karintha Holifield, MD',
-//    affiliation: 'Housing Works Community Healthcare',
-//    title: 'Medical Director, 125th Street Community Health Center',
-//    role: 'panelist',
-//    bio: 'Dr. Holifield is a board-certified internist and Medical Director for the Housing Works 125th Street Community Health Center. Dr. Holifield takes a thorough and personalized approach to internal medicine, focusing on effectively addressing diverse health challenges. She prioritizes preventive care and fosters a collaborative atmosphere where patients actively participate in their health journey. Combining medical expertise with clear communication, Dr. Holifield helps patients understand their conditions and available treatment options. Dr. Holifield earned her medical degree from the University of Miami and BA in Sociology from Yale University. She completed her residency in internal medicine from the Icahn School of Medicine at Mount Sinai Morningside and Mount Sinai West.',
-//    keywords: ['Internal Medicine', 'HIV', 'Preventive Care', 'Patient Empowerment'],
-//    headshot: '/speakers/karintha-holifield.jpeg',
-//  },
 ];
 
 
