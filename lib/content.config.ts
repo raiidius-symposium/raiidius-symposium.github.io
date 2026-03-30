@@ -363,7 +363,7 @@ const agenda2026: Session[] = [
     format: 'roundtable',
     startTime: '12:00 PM',
     endTime: '1:00 PM',
-    description: 'Enjoy lunch while participating in facilitated discussions regarding potential initiatives and multidisciplinary partnerships to advance responsible AI and informatics in ID research.',
+    description: 'Lunch will be accompanied by facilitated roundtable discussions on key topics in the responsible use of AI and informatics in infectious disease research, practice, and policy.',
     location: 'VEC Lobby Atrium and VEC 401',
   },
   // {
@@ -372,7 +372,7 @@ const agenda2026: Session[] = [
   //   format: 'roundtable',
   //   startTime: '11:00 AM',
   //   endTime: '12:00 PM',
-  //   description: 'Planning .',
+  //   description: '',
   //   location: 'VEC Lobby Atrium and VEC 401',
   // },
     {
