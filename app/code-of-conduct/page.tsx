@@ -74,7 +74,7 @@ export default function CodeOfConductPage() {
             <section>
               <h2 className="text-2xl font-bold text-primary mb-4">Consequences</h2>
               <p className="text-foreground">
-                Participants who violate this code of conduct may be asked to leave the event at the sole discretion of the organizing committee, without refund of any fees paid.
+                Participants who violate this code of conduct may be asked to leave the event at the sole discretion of the organizing committee.
               </p>
             </section>
 
