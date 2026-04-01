@@ -429,18 +429,13 @@ const importantDates2026: ImportantDate[] = [
   },
   {
     label: 'Abstract Submission Deadline',
-    date: 'April 30, 2026',
-    description: 'Final deadline for abstract submissions.',
+    date: 'May 1, 2026',
+    description: 'Abstracts will be reviewed on a rolling basis. The final deadline for abstract submissions is May 1st.',
   },
   {
     label: 'Notification of Acceptance',
     date: 'May 9, 2026',
-    description: 'Authors notified of abstract acceptance.',
-  },
-  {
-    label: 'Registration Deadline',
-    date: 'May 30, 2026',
-    description: 'Last day to register in advance.',
+    description: 'Authors will be notified of abstract acceptance on a rolling basis and by May 9th at the latest.',
   },
   {
     label: 'RAIIDIUS 2026 Symposium',
