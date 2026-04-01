@@ -327,15 +327,15 @@ const agenda2026: Session[] = [
     description: 'Refreshments and informal networking.',
     location: 'VEC Lobby Atrium',
   },
-    {
+      {
     id: 'panel',
-    title: 'Panel Discussion: Responsible AI Across the STI Research Continuum - From Clinics to Communities',
+    title: 'Panel Discussion: Responsible AI Across the STI Research Continuum - From Bench to Bedside',
     format: 'panel',
     startTime: '11:00 AM',
     endTime: '12:00 PM',
-    description: 'Panel brings together leaders in clinical epidemiology, machine learning, implementation science, and public health practice to examine the promise and perils of AI and informatics for STI intervention, understanding, and surveillance.',
+    description: 'Panel brings together leaders in computational biology, translational science, clinical informatics, and STI care to examine the promise and perils of AI and informatics for STI intervention, understanding, and surveillance.',
     location: 'VEC 201',
-    speakers: ['speaker-2','speaker-6'],
+    speakers: ['speaker-3','speaker-11'],
   },
   {
     id: 'lunch-roundtable',
@@ -348,13 +348,13 @@ const agenda2026: Session[] = [
   },
     {
     id: 'panel',
-    title: 'Panel Discussion: Responsible AI Across the STI Research Continuum - From Bench to Bedside',
+    title: 'Panel Discussion: Responsible AI Across the STI Research Continuum - From Clinics to Communities',
     format: 'panel',
-    startTime: '1:00 PM',
-    endTime: '2:00 PM',
-    description: 'Panel brings together leaders in computational biology, translational science, clinical informatics, and STI care to examine the promise and perils of AI and informatics for STI intervention, understanding, and surveillance.',
+    startTime: '12:00 PM',
+    endTime: '1:00 PM',
+    description: 'Panel brings together leaders in clinical epidemiology, machine learning, implementation science, and public health practice to examine the promise and perils of AI and informatics for STI intervention, understanding, and surveillance.',
     location: 'VEC 201',
-    speakers: ['speaker-3','speaker-11'],
+    speakers: ['speaker-2','speaker-6'],
   },
     {
     id: 'oral-session-2',
