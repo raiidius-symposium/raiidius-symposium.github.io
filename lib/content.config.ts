@@ -402,7 +402,7 @@ const agenda2026: Session[] = [
     format: 'poster',
     startTime: '5:00 PM',
     endTime: '7:00 PM',
-    description: 'Join us for refreshments, continued conversation, and dedicated poster viewing time featuring research on AI and informatics methods and applications in infectious disease research.',
+    description: 'Join us for refreshments, continued conversation, and dedicated poster viewing time featuring AI and informatics methods and applications in infectious disease research and practice.',
     location: 'VEC Lobby Atrium',
   },
 ];
