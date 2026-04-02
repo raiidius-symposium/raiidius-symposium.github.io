@@ -309,7 +309,7 @@ const agenda2026: Session[] = [
     location: 'VEC 201',
   },
   {
-    id: 'panel',
+    id: 'panel-1',
     title: 'Panel Session: Responsible AI Across the STI Research & Practice Continuum - From Clinics to Communities',
     format: 'panel',
     startTime: '10:00 AM',
@@ -348,7 +348,7 @@ const agenda2026: Session[] = [
     speakers: [],
   },
   {
-    id: 'panel',
+    id: 'panel-2',
     title: 'Panel Session: Responsible AI Across the STI Research & Practice Continuum - From Bench to Bedside',
     format: 'panel',
     startTime: '1:00 PM',
