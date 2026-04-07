@@ -450,7 +450,7 @@ const importantDates2026: ImportantDate[] = [
   {
     label: 'Abstract Submission Deadline',
     date: 'May 1, 2026',
-    description: 'Abstracts will be reviewed on a rolling basis. The final deadline for abstract submissions is May 1st.',
+    description: 'Abstracts will be reviewed on a rolling basis.',
   },
   {
     label: 'Notification of Acceptance',
