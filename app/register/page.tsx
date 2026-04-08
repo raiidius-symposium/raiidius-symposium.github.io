@@ -61,7 +61,7 @@ export default function RegisterPage() {
             <>
               <h2 className="mb-2 text-xl font-semibold">Reserve Your Spot</h2>
               <p className="mb-6 text-muted-foreground">
-                Attendance is free. Advance registration is encouraged.
+                Attendance is free. Advance registration is required.
               </p>
               <Button asChild size="lg" className="gap-2">
                 <a
