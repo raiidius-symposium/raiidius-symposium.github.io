@@ -204,26 +204,6 @@ const speakers2026: Speaker[] = [
   },
   {
     id: 'speaker-5',
-    name: 'Safura Abdool Karim, PhD, LLM',
-    affiliation: 'Columbia Mailman SPH, Heilbrunn Department of Population and Family Health',
-    title: 'Adjunct Assistant Professor',
-    role: ['panelist'],
-    bio: 'Dr. Abdool Karim is a public health lawyer whose research focuses on using the law to improve health outcomes. Safura is currently the Oxford-Hopkins GLIDE postdoctoral fellow at the Berman Institute, Johns Hopkins University and an Adjunct-Assistant Professor at the Mailman School of Public Health, Columbia University. Safura holds chambers at the Bridge Group of Advocates and is a member of the Johannesburg Society of Advocates and the Pan African Bar Association. Safura has been involved in researching and advocating on issues in COVID-19, including equitable vaccine access, human rights and criminalization of COVID-19. Safura has done extensive work on the legal issues on COVID-19 vaccines, serving on the DPME/NRF Expert Group developing the COVID-19 Country Report and the Africa CDC’s COVID-19 Vaccine Delivery Alliance and the Technology and Intellectual Property Workstream of the Partnerships for African Vaccine Manufacturing. Safura also worked with the Occupational Health and Safety Workstream of the NDOH Ministerial Advisory Committee on COVID-19 to provide advice on streamlining the pricing of COVID-19 testing. Safura has also provided technical support for key litigation and assisted in the development of workplace mandatory vaccination policies.',
-    keywords: ['Public Health', 'Bioethics', 'Human Rights', 'Vaccines'],
-    headshot: '/speakers/safura-abdool-karim.jpeg',
-  },
-  {
-    id: 'speaker-6',
-    name: 'Preeti Pathela, DrPH, MPH',
-    affiliation: 'NYC Department of Health and Mental Hygiene',
-    title: 'Executive Director - STI Program, Bureau of Hepatitis, HIV, and Sexually Transmitted Infections',
-    role: ['panelist'],
-    bio: 'Dr. Pathela is the Executive Director of the STI Program in the Bureau of Hepatitis, HIV, and STI at the New York City Department of Health and Mental Hygiene (NYC DOHMH). She has overall responsibility for directing, evaluating, and coordinating the activities of the Program, which consists of roughly 90 staff who conduct work in STI program implementation, surveillance and field operations, and epidemiology, research and evaluation. She serves on the American STD Association’s Board of Directors and as an Associate Editor of the journal Sexually Transmitted Diseases.',
-    keywords: ['HIV', 'STIs', 'Public Health','Program Implementation'],
-    headshot: '/speakers/preeti-pathela.png',
-  },
-  {
-    id: 'speaker-7',
     name: 'Craig Heck, PhD, MPH',
     affiliation: 'CUIMC Division of Infectious Diseases',
     title: 'Postdoctoral Research Scientist',
@@ -231,6 +211,26 @@ const speakers2026: Speaker[] = [
     bio: 'Dr. Heck is a postdoctoral research scientist in Columbia University’s Division of Infectious Diseases. He is an epidemiologist with a decade of experience researching HIV prevention strategies for key and vulnerable populations in eastern and southern Africa. His research primarily seeks to improve the availability, access, use, and continuation of HIV prevention services, methods, and interventions using social, behavioral, and implementation science approaches. Recently, he has been examining the dynamics of risk perception and its influence on risk-reduction behaviors. Dr. Heck is also interested in identifying and addressing social, structural, and systemic drivers of health disparities. Dr. Heck holds a PhD in epidemiology and an MPH in population and family health, both from the Columbia University Mailman School of Public Health.',
     keywords: ['Epidemiology','HIV Prevention','Risk Perception','Risk-Reduction Behaviors'],
     headshot: '/speakers/craig-heck.jpg',
+  },
+  {
+    id: 'speaker-6',
+    name: 'Michael T. Yin, MD, MS',
+    affiliation: 'CUIMC Division of Infectious Diseases',
+    title: 'Professor of Medicine',
+    role: ['moderator',],
+    bio: 'Dr. Yin is an infectious disease specialist who has dedicated his career towards optimizing HIV treatment and prevention. His research focuses upon non-infectious complications of HIV which is growing in significance as people with HIV live longer with effective antiretrovirals therapy (ART) and experience accentuated aging-related complications. He has evaluated the epidemiology and pathogenic mechanisms of HIV associated bone loss in postmenopausal women, adolescents, and children with perinatal infection. Using novel imaging techniques and translational bone cell assays, he has made important discoveries about the dysregulation of bone metabolism associated with HIV infection and ART and investigated therapeutic strategies to mitigate bone loss and fracture. In addition to skeletal complications, Dr. Yin has also studied the impact of HIV and ART on cardiovascular disease, metabolic syndrome, obesity, frailty and falls. Recent work has extended to evaluation of epigenetic aging in children, adolescents and adults living with HIV.',
+    keywords: ['Clinical Informatics', 'HIV', 'Aging', 'Epigenetics', 'Cardiovascular Disease'],
+    headshot: '/speakers/michael-yin.jpg',
+  },
+  {
+    id: 'speaker-7',
+    name: 'Akhila Kosaraju, MD',
+    affiliation: 'Phare Bio',
+    title: 'CEO & President',
+    role: ['keynote',],
+    bio: 'Dr. Kosaraju is the CEO and President of Phare Bio, a social venture pioneering the use of generative AI and deep learning to discover new classes of antibiotics, in collaboration with the Collins Lab at the Massachusetts Institute of Technology. Under her leadership, Phare Bio launched with funding and support from TED\’s Audacious Project, received $27 million in funding from the Advanced Research Projects Agency for Health (ARPA-H), was selected for Google.org\’s Generative AI Accelerator, and has been recognized by Fast Company, Newsweek and Wired Health. Dr. Kosaraju has spent her career building companies and driving innovation at the intersection of infectious disease and computational biology. She was the founding CEO of Variant Bio, a venture-backed genomics and therapeutics company, and previously served as an executive at SIGA Technologies, where she helped bring antiviral drugs against emerging threats to market. Earlier in her career, Dr. Kosaraju was a White House appointee at the Pentagon, where she served as Special Assistant to the Assistant Secretary of Defense for Health Affairs. She is a recipient of the Office of the Secretary of Defense Medal for Exceptional Public Service, a Member of the Council on Foreign Relations, co-founder of the Alliance to End Biological Threats, and a Lecturer at Stanford\’s Centre for Biosecurity and Pandemic Resilience. She earned her M.D. from Columbia University\’s College of Physicians and Surgeons and her B.A. in Human Biology from Stanford University.',
+    keywords: ['AI for Antibiotics', 'Antimicrobial Resistance', 'Computational Biology', 'Social Entrepreneurship'],
+    headshot: '/speakers/akhila-kosaraju.png',
   },
   {
     id: 'speaker-8',
@@ -254,13 +254,13 @@ const speakers2026: Speaker[] = [
   },
   {
     id: 'speaker-10',
-    name: 'Michael T. Yin, MD, MS',
-    affiliation: 'CUIMC Division of Infectious Diseases',
-    title: 'Professor of Medicine',
-    role: ['moderator',],
-    bio: 'Dr. Yin is an infectious disease specialist who has dedicated his career towards optimizing HIV treatment and prevention. His research focuses upon non-infectious complications of HIV which is growing in significance as people with HIV live longer with effective antiretrovirals therapy (ART) and experience accentuated aging-related complications. He has evaluated the epidemiology and pathogenic mechanisms of HIV associated bone loss in postmenopausal women, adolescents, and children with perinatal infection. Using novel imaging techniques and translational bone cell assays, he has made important discoveries about the dysregulation of bone metabolism associated with HIV infection and ART and investigated therapeutic strategies to mitigate bone loss and fracture. In addition to skeletal complications, Dr. Yin has also studied the impact of HIV and ART on cardiovascular disease, metabolic syndrome, obesity, frailty and falls. Recent work has extended to evaluation of epigenetic aging in children, adolescents and adults living with HIV.',
-    keywords: ['Clinical Informatics', 'HIV', 'Aging', 'Epigenetics', 'Cardiovascular Disease'],
-    headshot: '/speakers/michael-yin.jpg',
+    name: 'Preeti Pathela, DrPH, MPH',
+    affiliation: 'NYC Department of Health and Mental Hygiene',
+    title: 'Executive Director - STI Program, Bureau of Hepatitis, HIV, and Sexually Transmitted Infections',
+    role: ['panelist'],
+    bio: 'Dr. Pathela is the Executive Director of the STI Program in the Bureau of Hepatitis, HIV, and STI at the New York City Department of Health and Mental Hygiene (NYC DOHMH). She has overall responsibility for directing, evaluating, and coordinating the activities of the Program, which consists of roughly 90 staff who conduct work in STI program implementation, surveillance and field operations, and epidemiology, research and evaluation. She serves on the American STD Association’s Board of Directors and as an Associate Editor of the journal Sexually Transmitted Diseases.',
+    keywords: ['HIV', 'STIs', 'Public Health','Program Implementation'],
+    headshot: '/speakers/preeti-pathela.png',
   },
   {
     id: 'speaker-11',
@@ -274,16 +274,6 @@ const speakers2026: Speaker[] = [
   },
   {
     id: 'speaker-12',
-    name: 'Akhila Kosaraju, MD',
-    affiliation: 'Phare Bio',
-    title: 'CEO & President',
-    role: ['keynote',],
-    bio: 'Dr. Kosaraju is the CEO and President of Phare Bio, a social venture pioneering the use of generative AI and deep learning to discover new classes of antibiotics, in collaboration with the Collins Lab at the Massachusetts Institute of Technology. Under her leadership, Phare Bio launched with funding and support from TED\’s Audacious Project, received $27 million in funding from the Advanced Research Projects Agency for Health (ARPA-H), was selected for Google.org\’s Generative AI Accelerator, and has been recognized by Fast Company, Newsweek and Wired Health. Dr. Kosaraju has spent her career building companies and driving innovation at the intersection of infectious disease and computational biology. She was the founding CEO of Variant Bio, a venture-backed genomics and therapeutics company, and previously served as an executive at SIGA Technologies, where she helped bring antiviral drugs against emerging threats to market. Earlier in her career, Dr. Kosaraju was a White House appointee at the Pentagon, where she served as Special Assistant to the Assistant Secretary of Defense for Health Affairs. She is a recipient of the Office of the Secretary of Defense Medal for Exceptional Public Service, a Member of the Council on Foreign Relations, co-founder of the Alliance to End Biological Threats, and a Lecturer at Stanford\’s Centre for Biosecurity and Pandemic Resilience. She earned her M.D. from Columbia University\’s College of Physicians and Surgeons and her B.A. in Human Biology from Stanford University.',
-    keywords: ['AI for Antibiotics', 'Antimicrobial Resistance', 'Computational Biology', 'Social Entrepreneurship'],
-    headshot: '/speakers/akhila-kosaraju.png',
-  },
-  {
-    id: 'speaker-13',
     name: 'Anna Bershteyn, PhD',
     affiliation: 'New York University',
     title: 'Associate Professor',
@@ -292,8 +282,17 @@ const speakers2026: Speaker[] = [
     keywords: ['Epidemiology', 'Computational Modeling', 'Systems Biology', 'Vaccinology', 'Drug Delivery'],
     headshot: '/speakers/anna-bershteyn.png',
   },
+  {
+    id: 'speaker-13',
+    name: 'Safura Abdool Karim, PhD, LLM',
+    affiliation: 'Columbia Mailman SPH, Heilbrunn Department of Population and Family Health',
+    title: 'Adjunct Assistant Professor',
+    role: ['panelist'],
+    bio: 'Dr. Abdool Karim is a public health lawyer whose research focuses on using the law to improve health outcomes. Safura is currently the Oxford-Hopkins GLIDE postdoctoral fellow at the Berman Institute, Johns Hopkins University and an Adjunct-Assistant Professor at the Mailman School of Public Health, Columbia University. Safura holds chambers at the Bridge Group of Advocates and is a member of the Johannesburg Society of Advocates and the Pan African Bar Association. Safura has been involved in researching and advocating on issues in COVID-19, including equitable vaccine access, human rights and criminalization of COVID-19. Safura has done extensive work on the legal issues on COVID-19 vaccines, serving on the DPME/NRF Expert Group developing the COVID-19 Country Report and the Africa CDC’s COVID-19 Vaccine Delivery Alliance and the Technology and Intellectual Property Workstream of the Partnerships for African Vaccine Manufacturing. Safura also worked with the Occupational Health and Safety Workstream of the NDOH Ministerial Advisory Committee on COVID-19 to provide advice on streamlining the pricing of COVID-19 testing. Safura has also provided technical support for key litigation and assisted in the development of workplace mandatory vaccination policies.',
+    keywords: ['Public Health', 'Bioethics', 'Human Rights', 'Vaccines'],
+    headshot: '/speakers/safura-abdool-karim.jpeg',
+  },
 ];
-
 
 // -----------------------------------------------------------------------------
 // Agenda for 2026
@@ -385,7 +384,7 @@ const agenda2026: Session[] = [
     endTime: '2:50 PM',
     description: 'Panel brings together leaders in computational biology, translational science, clinical informatics, and STI care to examine the promise and perils of AI and informatics for STI intervention, understanding, and surveillance.',
     location: 'VEC 201',
-    speakers: ['speaker-3','speaker-11', 'speaker-13'],
+    speakers: ['speaker-3','speaker-11', 'speaker-12'],
   },
   {
     id: 'break-afternoon',
@@ -414,7 +413,7 @@ const agenda2026: Session[] = [
     endTime: '4:45 PM',
     description: 'Dr. Akhila Kosaraju, CEO and President of Phare Bio, will deliver a keynote on the promise of generative AI and deep learning technologies to accelerate drug discovery and translational research. Phare Bio is a social venture applying these technologies to the discovery of new classes of antibiotics in collaboration with the Collins Lab at MIT. Dr. Kosaraju’s talk will explore how AI can advance antimicrobial innovation while also addressing the scientific, operational, and translational challenges of moving these approaches toward real-world impact.',
     location: 'VEC 201',
-    speakers: ['speaker-12'],
+    speakers: ['speaker-7'],
   },
   {
     id: 'closing',
