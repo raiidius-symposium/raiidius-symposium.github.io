@@ -354,7 +354,7 @@ const agenda2026: Session[] = [
     endTime: '12:00 PM',
     description: 'Panel brings together leaders in clinical epidemiology, machine learning, implementation science, and public health practice to examine the promise and perils of AI and informatics for STI intervention, understanding, and surveillance.',
     location: 'VEC 201',
-    speakers: ['speaker-2','speaker-6', 'speaker-5'],
+    speakers: ['speaker-2','speaker-10', 'speaker-13'],
   }, 
   {
     id: 'lunch-roundtable',
