@@ -346,7 +346,7 @@ const agenda2026: Session[] = [
     endTime: '10:00 AM',
     description: '',
     location: 'VEC 201',
-    speakers: ['speaker-14'],
+    speakers: ['speaker-1','speaker-14'],
   },
   {
     id: 'oral-session-1',
@@ -395,7 +395,7 @@ const agenda2026: Session[] = [
     endTime: '1:50 PM',
     description: '',
     location: 'VEC 201',
-    speakers: ['speaker-10'],
+    speakers: ['speaker-6'],
   },
   {
     id: 'panel-2',
