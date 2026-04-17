@@ -346,7 +346,7 @@ const agenda2026: Session[] = [
     endTime: '10:00 AM',
     description: '',
     location: 'VEC 201',
-    speakers: ['speaker-1','speaker-14'],
+    speakers: ['speaker-14'],
   },
   {
     id: 'oral-session-1',
