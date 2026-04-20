@@ -344,7 +344,7 @@ const agenda2026: Session[] = [
     format: 'session',
     startTime: '9:20 AM',
     endTime: '10:00 AM',
-    description: '',
+    description: 'In this fireside chat, Dr. Walensky will discuss the role of AI and informatics in the future of infectious disease research, care delivery, and public health. The conversation will explore the promise, limitations, and real-world implications of these technologies in practice.',
     location: 'VEC 201',
     speakers: ['speaker-7'],
   },
