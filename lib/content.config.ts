@@ -229,7 +229,7 @@ const speakers2026: Speaker[] = [
     title: 'Professor',
     role: ['speaker'],
     bio: 'Dr. Walensky has served as the 19th Director of the Centers for Disease Control and Prevention (2021–2023); Professor of Medicine, Harvard Medical School (2012–2021 and 2025-present); and Chief of the Division of Infectious Diseases, Massachusetts General Hospital (2017–2021). Dr. Walensky is an infectious disease clinician whose research career is guided by a belief that the clinical and economic outcomes of medical decisions can be improved through the explicit articulation of choices, systematic assembly of evidence, and careful assessment of comparative costs and benefits. Her groundbreaking work and over 300 research publications have motivated changes to US HIV testing and immigration policy; promoted expanded funding for HIV-related research, treatment, and the President\’s Emergency Plan for AIDS Relief (PEPFAR); and led to policy revisions toward aggressive HIV screening—especially for the underserved—and earlier treatment in resource-limited international settings. Dr. Walensky has been an active member of policy discussions at the WHO, Joint UN Programme on HIV/AIDS, US DHSS HIV Guidelines Committee, and NIH Office of AIDS Research.',
-    keywords: ['HIV','Public Health Policy', 'Mathematical Modeling', 'Cost-effectiveness Analysis', 'Vaccine Advocacy'],
+    keywords: ['Public Health Policy', 'HIV', 'Vaccine Advocacy', 'Mathematical Modeling', 'Cost-effectiveness Analysis'],
     headshot: '/speakers/rochelle-walensky.png',
   },
   {
