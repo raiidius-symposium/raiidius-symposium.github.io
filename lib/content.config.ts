@@ -294,6 +294,26 @@ const speakers2026: Speaker[] = [
   },
     {
     id: 'speaker-14',
+    name: 'Rumi Chunara, PhD',
+    affiliation: 'New York University',
+    title: 'Associate Professor',
+    role: ['panelist'],
+    bio: 'Dr. Chunara is an Associate Professor of Biostatistics and Associate Professor of Computer Science and Engineering at New York University. The overarching goal of her research is to develop computational and statistical approaches for acquiring, integrating and using data to improve population-level public health. She focuses on the design and development of data mining and machine learning methods to address challenges related to data and goals of public health, as well as fairness and ethics in the design and use of data and algorithms embedded in social systems. At NYU, Dr. Chunara also leads the Chunara Lab, which develops computational and statistical methods across data mining, natural language processing, spatio-temporal analyses and machine learning, to study population health. Previously, she was a Postdoctoral Fellow and Instructor at HealthMap and the Children\'s Hospital Informatics Program at Harvard Medical School. She completed her PhD at the Harvard-MIT Division of Health Sciences and Technology and BSc at Caltech.',
+    keywords: ['Machine Learning', 'Social Computing','Social Determinants of Health','Health Disparities'],
+    headshot: '/speakers/rumi-chunara.png',
+  }, 
+      {
+    id: 'speaker-15',
+    name: 'Despina Kontos, PhD',
+    affiliation: 'CUIMC Departments of Radiology and Biomedical Informatics',
+    title: 'Professor',
+    role: ['panelist'],
+    bio: 'Dr. Kontos, PhD, is a Professor of Radiology and Vice Chair of Artificial Intelligence and Data Science Research in the CUIMC Department of Radiology and Director of Biomarker Imaging at NewYork-Presbyterian Hospital, with additional appointments in the Departments of Biomedical Informatics and Biomedical Engineering. She is also the founding director of Columbia\'s Center for Innovation in Imaging Biomarkers and Integrated Diagnostics (CIMBID), a multidisciplinary center dedicated to developing and integrating quantitative imaging and non-imaging biomarkers for personalized disease prediction. As a computer scientist with expertise in AI, machine learning, and big data analytics for multimodal data, Dr. Kontos\’ research program focuses on investigating the role of imaging as a quantitative biomarker for improving screening, prognostication, and treatment. She has developed innovative computational methodologies that have enabled the investigation of novel phenotypic biomarkers via imaging and has translated these biomarkers through extensive clinical and epidemiologic studies to answer important research questions for personalizing care. Dr. Kontos studied engineering as an undergraduate at the University of Patras in Greece. She received her PhD in computer and information sciences from Temple University in Philadelphia, followed by postdoc training in radiology at the University of Pennsylvania. She has certificates in Biostatistics and Epidemiology from the University of Pennsylvania; Cancer Biology and Targeted Therapeutics from Harvard University; and AI for Decision Making: Business Strategies and Applications from the Wharton School of Business.'
+    keywords: ['Artificial Intelligence', 'Machine Learning', 'Big Data Analytics for Multimodal Data', 'Imaging Biomarkers'],
+    headshot: '/speakers/despina-kontos.png',
+  }, 
+    {
+    id: 'speaker-16',
     name: 'Preeti Pathela, DrPH, MPH',
     affiliation: 'NYC Department of Health and Mental Hygiene',
     title: 'Executive Director - STI Program, Bureau of Hepatitis, HIV, and Sexually Transmitted Infections',
@@ -303,7 +323,7 @@ const speakers2026: Speaker[] = [
     headshot: '/speakers/preeti-pathela.png',
   },
   {
-    id: 'speaker-15',
+    id: 'speaker-17',
     name: 'Alexis Walker, PhD, MA',
     affiliation: 'CUIMC Department of Medical Humanities and Ethics',
     title: 'Assistant Professor',
@@ -375,7 +395,7 @@ const agenda2026: Session[] = [
     endTime: '12:00 PM',
     description: 'Panel brings together leaders in clinical epidemiology, machine learning, implementation science, and public health practice to examine the promise and perils of AI and informatics for STI intervention, understanding, and surveillance.',
     location: 'VEC 201',
-    speakers: ['speaker-2','speaker-11', 'speaker-14'],
+    speakers: ['speaker-2','speaker-11', 'speaker-14','speaker-16'],
   }, 
   {
     id: 'lunch-roundtable',
@@ -405,7 +425,7 @@ const agenda2026: Session[] = [
     endTime: '2:50 PM',
     description: 'Panel brings together leaders in computational biology, translational science, clinical informatics, and STI care to examine the promise and perils of AI and informatics for STI intervention, understanding, and surveillance.',
     location: 'VEC 201',
-    speakers: ['speaker-3','speaker-12', 'speaker-13','speaker-15'],
+    speakers: ['speaker-3','speaker-12', 'speaker-13','speaker-15','speaker-17'],
   },
   {
     id: 'break-afternoon',
