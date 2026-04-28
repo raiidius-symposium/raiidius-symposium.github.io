@@ -70,11 +70,21 @@ export default function RootLayout({
     <html lang="en">
       <body className="font-sans antialiased min-h-screen flex flex-col">
         <EditionProvider>
+          <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W54GRN9MXW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W54GRN9MXW');
+</script>
           <SiteHeader />
           <main className="flex-1">{children}</main>
           <SiteFooter />
         </EditionProvider>
       </body>
+     
     </html>
   );
 }
