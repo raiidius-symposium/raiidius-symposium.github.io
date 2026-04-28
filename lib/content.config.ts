@@ -319,7 +319,7 @@ const speakers2026: Speaker[] = [
     title: 'Associate Professor',
     role: ['panelist'],
     bio: 'Douglas Krakower is Faculty in the Division of Infectious Diseases at Beth Israel Deaconess Medical Center, Research Scientist at The Fenway Institute, and Associate Professor in Medicine and Population Medicine at Harvard Medical School. His research focuses on ways to optimize HIV prevention in healthcare settings with a focus on implementing HIV pre-exposure prophylaxis (PrEP). At the Department of Population Medicine, Dr. Krakower and colleagues are using predictive analytics to identify candidates for PrEP using electronic health records data. This work represents a collaborative effort with researchers at Beth Israel Deaconess Medical Center, the Fenway Institute, and the Massachusetts Department of Public Health. His clinical practice encompasses general infectious diseases and HIV treatment and prevention.',
-    keywords: ['HIV Prevention and Treatment', 'Population Medicine', 'Electronic Health Records', 'Predictive Analytics'],
+    keywords: ['HIV Prevention and Treatment', 'Predictive Analytics', 'Population Medicine', 'Electronic Health Records'],
     headshot: '/speakers/douglas-krakower.png',
   },
   {
