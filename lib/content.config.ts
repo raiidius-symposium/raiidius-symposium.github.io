@@ -302,7 +302,7 @@ const speakers2026: Speaker[] = [
     keywords: ['Machine Learning', 'Social Computing','Social Determinants of Health','Health Disparities'],
     headshot: '/speakers/rumi-chunara.png',
   }, 
-      {
+  {
     id: 'speaker-15',
     name: 'Despina Kontos, PhD',
     affiliation: 'CUIMC Departments of Radiology and Biomedical Informatics',
@@ -312,8 +312,18 @@ const speakers2026: Speaker[] = [
     keywords: ['Artificial Intelligence', 'Machine Learning', 'Big Data Analytics for Multimodal Data', 'Imaging Biomarkers'],
     headshot: '/speakers/despina-kontos.png',
   }, 
-    {
+  {
     id: 'speaker-16',
+    name: 'Douglas Krakower, MD',
+    affiliation: 'Harvard Medical School | Beth Israel Deaconness Medical Center',
+    title: 'Associate Professor',
+    role: ['panelist'],
+    bio: 'Douglas Krakower is Faculty in the Division of Infectious Diseases at Beth Israel Deaconess Medical Center, Research Scientist at The Fenway Institute, and Associate Professor in Medicine and Population Medicine at Harvard Medical School. His research focuses on ways to optimize HIV prevention in healthcare settings with a focus on implementing HIV pre-exposure prophylaxis (PrEP). At the Department of Population Medicine, Dr. Krakower and colleagues are using predictive analytics to identify candidates for PrEP using electronic health records data. This work represents a collaborative effort with researchers at Beth Israel Deaconess Medical Center, the Fenway Institute, and the Massachusetts Department of Public Health. His clinical practice encompasses general infectious diseases and HIV treatment and prevention.',
+    keywords: ['HIV Prevention and Treatment', 'Electronic Health Records', 'Predictive Analytics','Population Medicine'],
+    headshot: '/speakers/douglas-krakower.png',
+  },
+  {
+    id: 'speaker-17',
     name: 'Preeti Pathela, DrPH, MPH',
     affiliation: 'NYC Department of Health and Mental Hygiene',
     title: 'Executive Director - STI Program, Bureau of Hepatitis, HIV, and Sexually Transmitted Infections',
@@ -323,7 +333,7 @@ const speakers2026: Speaker[] = [
     headshot: '/speakers/preeti-pathela.png',
   },
   {
-    id: 'speaker-17',
+    id: 'speaker-18',
     name: 'Alexis Walker, PhD, MA',
     affiliation: 'CUIMC Department of Medical Humanities and Ethics',
     title: 'Assistant Professor',
@@ -395,7 +405,7 @@ const agenda2026: Session[] = [
     endTime: '12:00 PM',
     description: 'Panel brings together leaders in clinical epidemiology, machine learning, implementation science, and public health practice to examine the promise and perils of AI and informatics for STI intervention, understanding, and surveillance.',
     location: 'VEC 201',
-    speakers: ['speaker-2','speaker-11', 'speaker-14','speaker-16'],
+    speakers: ['speaker-2','speaker-11', 'speaker-14','speaker-16','speaker-17'],
   }, 
   {
     id: 'lunch-roundtable',
@@ -425,7 +435,7 @@ const agenda2026: Session[] = [
     endTime: '2:50 PM',
     description: 'Panel brings together leaders in computational biology, translational science, clinical informatics, and STI care to examine the promise and perils of AI and informatics for STI intervention, understanding, and surveillance.',
     location: 'VEC 201',
-    speakers: ['speaker-3','speaker-12', 'speaker-13','speaker-15','speaker-17'],
+    speakers: ['speaker-3','speaker-12', 'speaker-13','speaker-15','speaker-18'],
   },
   {
     id: 'break-afternoon',
