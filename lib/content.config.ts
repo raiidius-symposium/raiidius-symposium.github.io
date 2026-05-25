@@ -478,11 +478,11 @@ const agenda2026: Session[] = [
   },
   {
     id: 'poster-networking',
-    title: 'Poster Session & Networking Reception: AI and Informatics-based Methods and Applications for Infectious Disease Research and Practice',
+    title: 'Networking Reception: AI and Informatics-based Methods and Applications for Infectious Disease Research and Practice',
     format: 'poster',
     startTime: '5:00 PM',
     endTime: '6:00 PM',
-    description: 'Join us for refreshments, continued conversation, and dedicated poster viewing time featuring AI and informatics methods and applications in infectious disease research and practice.',
+    description: 'Join us for refreshments, networking, and continued conversations about AI and informatics methods and applications in infectious disease research and practice.',
     location: 'VEC Lobby Atrium',
   },
 ];
@@ -508,14 +508,12 @@ const importantDates2026: ImportantDate[] = [
     description: 'Registration opens for attendees.',
   },
   {
-    label: 'Abstract Submission Deadline',
-    date: 'May 8, 2026',
-    description: 'Abstracts will be reviewed on a rolling basis.',
+    label: 'Rolling Abstract Submissions',
+    description: 'Abstracts will continue to be reviewed on a rolling basis.',
   },
   {
     label: 'Notification of Acceptance',
-    date: 'May 15, 2026',
-    description: 'Authors will be notified of abstract acceptance on a rolling basis and by May 15th at the latest.',
+    description: 'Authors will be notified of abstract acceptance on a rolling basis.',
   },
   {
     label: 'RAIIDIUS 2026 Symposium',
