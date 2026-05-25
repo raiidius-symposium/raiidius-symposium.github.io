@@ -508,7 +508,7 @@ const importantDates2026: ImportantDate[] = [
     description: 'Registration opens for attendees.',
   },
   {
-    label: 'Rolling Abstract Submissions',
+    label: 'Abstract Submission Deadline',
     date: "Rolling",
     description: 'Abstracts will continue to be reviewed on a rolling basis.',
   },
