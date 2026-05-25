@@ -509,10 +509,12 @@ const importantDates2026: ImportantDate[] = [
   },
   {
     label: 'Rolling Abstract Submissions',
+    date: "Rolling",
     description: 'Abstracts will continue to be reviewed on a rolling basis.',
   },
   {
     label: 'Notification of Acceptance',
+    date: "Rolling",
     description: 'Authors will be notified of abstract acceptance on a rolling basis.',
   },
   {
