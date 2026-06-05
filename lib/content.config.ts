@@ -453,7 +453,7 @@ const agenda2026: Session[] = [
     startTime: '3:00 PM',
     endTime: '4:00 PM',
     description: 'A condensed, hands-on tutorial inspired by the Columbia OHDSI Summer School introducing the OHDSI community, open-source tools, and practical approaches to working with observational health data and generating real-world evidence.',
-    location: 'VEC 401',
+    location: 'VEC 201',
     speakers: ['speaker-9', 'speaker-10'],
   },
   {
