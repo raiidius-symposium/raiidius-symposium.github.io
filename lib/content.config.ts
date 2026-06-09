@@ -383,7 +383,7 @@ const agenda2026: Session[] = [
     title: 'Session 1: Oral Presentations',
     format: 'session',
     startTime: '10:00 AM',
-    endTime: '10:50 PM',
+    endTime: '10:50 AM',
     description: '',
     location: 'VEC 201',
     speakers: ['speaker-4'],
