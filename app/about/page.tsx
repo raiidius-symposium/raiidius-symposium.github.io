@@ -36,7 +36,7 @@ const organizingCommittee = [
     affiliation: 'CUIMC Division of Infectious Diseases',
     title: 'Harold C. Neu Professor of Infectious Diseases and Chief of Infectious Diseases at CUIMC',
     headshot: '/speakers/magdalena-sobieszczyk.jpg',
-  }
+  },
   {
     name: 'Jason E. Zucker, MD, MS',
     role: 'Committee Member',
